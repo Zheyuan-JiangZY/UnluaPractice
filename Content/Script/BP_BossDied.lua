@@ -27,6 +27,7 @@ local M = UnLua.Class()
 -- function M:ReceiveAnyDamage(Damage, DamageType, InstigatedBy, DamageCauser)
 -- end
 
+-- callback function
 function M:ReceiveActorBeginOverlap(OtherActor)
     self.OpenDoor:Broadcast()
 end

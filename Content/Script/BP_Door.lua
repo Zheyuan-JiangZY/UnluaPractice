@@ -16,6 +16,7 @@ local Screen = require("Screen")
 -- function M:UserConstructionScript()
 -- end
 
+-- the same as custom event in blueprint
 function M:OpenDoor()
     self.Door:K2_SetRelativeRotation(UE.FRotator(0,90,0),false,nil,nil)
     Screen.Print("OpenTheDoor")
@@ -34,7 +35,9 @@ function M:ReceiveBeginPlay()
 		__actor
 	)
 	self.BossDied = __actor:GetRef(1)
+    -- bind event to OpenDoor
     self.BossDied.OpenDoor:Add(self,self.OpenDoor)
+    -- bind event to CloseDoor
     self.BossDied.CloseDoor:Add(self,self.CloseDoor)
 end
 
