@@ -1,0 +1,15 @@
+---Represents the appearance of an SDockTab
+---@class FDockTabStyle : FSlateWidgetStyle
+---@field public CloseButtonStyle FButtonStyle @Style used for the close button
+---@field public NormalBrush FSlateBrush @Brush used when this tab is in its normal state
+---@field public ActiveBrush FSlateBrush @Brush used when this tab is in its active state
+---@field public ColorOverlayTabBrush FSlateBrush @Brush used to overlay a given color onto this tab
+---@field public ColorOverlayIconBrush FSlateBrush @Brush used to overlay a given color onto this tab
+---@field public ForegroundBrush FSlateBrush @Brush used when this tab is in the foreground
+---@field public HoveredBrush FSlateBrush @Brush used when this tab is hovered over
+---@field public ContentAreaBrush FSlateBrush @Brush used by the SDockingTabStack to draw the content associated with this tab; Documents, Apps, and Tool Panels have different backgrounds
+---@field public TabWellBrush FSlateBrush @Brush used by the SDockingTabStack to draw the content associated with this tab; Documents, Apps, and Tool Panels have different backgrounds
+---@field public TabPadding FMargin @Padding used around this tab
+---@field public OverlapWidth number @The width that this tab will overlap with side-by-side tabs
+---@field public FlashColor FSlateColor @Color used when flashing this tab
+local FDockTabStyle = {}

@@ -1,0 +1,25 @@
+---Component used to listen to ar trackable object changes
+---@class UARTrackableNotifyComponent : UActorComponent
+---@field public OnAddTrackedGeometry MulticastDelegate @Event that happens when any new trackable ar item is added
+---@field public OnUpdateTrackedGeometry MulticastDelegate @Event that happens when any trackable ar item is updated
+---@field public OnRemoveTrackedGeometry MulticastDelegate @Event that happens when any trackable ar item is removed from the scene
+---@field public OnAddTrackedPlane MulticastDelegate @Event that happens when any new ar plane item is added
+---@field public OnUpdateTrackedPlane MulticastDelegate @Event that happens when any ar plane item is updated
+---@field public OnRemoveTrackedPlane MulticastDelegate @Event that happens when any ar plane item is removed from the scene
+---@field public OnAddTrackedPoint MulticastDelegate @Event that happens when any new ar Point item is added
+---@field public OnUpdateTrackedPoint MulticastDelegate @Event that happens when any ar Point item is updated
+---@field public OnRemoveTrackedPoint MulticastDelegate @Event that happens when any ar Point item is removed from the scene
+---@field public OnAddTrackedImage MulticastDelegate @Event that happens when any new ar Image item is added
+---@field public OnUpdateTrackedImage MulticastDelegate @Event that happens when any ar Image item is updated
+---@field public OnRemoveTrackedImage MulticastDelegate @Event that happens when any ar Image item is removed from the scene
+---@field public OnAddTrackedFace MulticastDelegate @Event that happens when any new ar Face item is added
+---@field public OnUpdateTrackedFace MulticastDelegate @Event that happens when any ar Face item is updated
+---@field public OnRemoveTrackedFace MulticastDelegate @Event that happens when any ar Face item is removed from the scene
+---@field public OnAddTrackedEnvProbe MulticastDelegate @Event that happens when any new ar environment capture probe item is added
+---@field public OnUpdateTrackedEnvProbe MulticastDelegate @Event that happens when any ar environment capture probe item is updated
+---@field public OnRemoveTrackedEnvProbe MulticastDelegate @Event that happens when any ar environment capture probe item is removed from the scene
+---@field public OnAddTrackedObject MulticastDelegate @Event that happens when any new ar detected object item is added
+---@field public OnUpdateTrackedObject MulticastDelegate @Event that happens when any ar detected object item is updated
+---@field public OnRemoveTrackedObject MulticastDelegate @Event that happens when any ar detected object item is removed from the scene
+local UARTrackableNotifyComponent = {}
+

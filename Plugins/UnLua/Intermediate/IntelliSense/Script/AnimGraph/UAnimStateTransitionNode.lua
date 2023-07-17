@@ -1,0 +1,24 @@
+---@class UAnimStateTransitionNode : UAnimStateNodeBase
+---@field public BoundGraph UEdGraph @The transition logic graph for this transition (returning a boolean)
+---@field public CustomTransitionGraph UEdGraph @The animation graph for this transition if it uses custom blending (returning a pose)
+---@field public PriorityOrder integer @The priority order of this transition. If multiple transitions out of a state go true at the same time, the one with the smallest priority order will take precedent
+---@field public CrossfadeDuration number @The duration to cross-fade for
+---@field public BlendMode EAlphaBlendOption
+---@field public CustomBlendCurve UCurveFloat
+---@field public BlendProfile UBlendProfile @The blend profile to use to evaluate this transition per-bone
+---@field public bAutomaticRuleBasedOnSequencePlayerInState boolean @Try setting the rule automatically based on most relevant player node's remaining time and the CrossfadeDuration of the transition, ignoring the internal time
+---@field public LogicType integer @What transition logic to use
+---@field public TransitionStart FAnimNotifyEvent
+---@field public TransitionEnd FAnimNotifyEvent
+---@field public TransitionInterrupt FAnimNotifyEvent
+---@field public Bidirectional boolean @This transition can go both directions
+---@field public bSharedRules boolean @The rules for this transition may be shared with other transition nodes
+---@field public bSharedCrossfade boolean @The cross-fade settings of this node may be shared
+---@field public SharedRulesName string @What we call this transition if we are shared ('Transition X to Y' can't be used since its used in multiple places)
+---@field public SharedRulesGuid FGuid @Shared rules guid useful when copying between different state machines
+---@field public SharedColor FLinearColor @Color we draw in the editor as if we are shared
+---@field public SharedCrossfadeName string
+---@field public SharedCrossfadeGuid FGuid
+---@field public SharedCrossfadeIdx integer
+local UAnimStateTransitionNode = {}
+

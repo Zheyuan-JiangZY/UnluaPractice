@@ -1,0 +1,12 @@
+---@class FGeometryCollectionSizeSpecificData
+---@field public MaxSize number @The max size these settings apply to
+---@field public CollisionType ECollisionTypeEnum @*  CollisionType defines how to initialize the rigid collision structures.
+---@field public ImplicitType EImplicitTypeEnum @*  CollisionType defines how to initialize the rigid collision structures.
+---@field public MinLevelSetResolution integer @*  Resolution on the smallest axes for the level set. (def: 5)
+---@field public MaxLevelSetResolution integer @*  Resolution on the smallest axes for the level set. (def: 10)
+---@field public MinClusterLevelSetResolution integer @*  Resolution on the smallest axes for the level set. (def: 5)
+---@field public MaxClusterLevelSetResolution integer @*  Resolution on the smallest axes for the level set. (def: 10)
+---@field public CollisionObjectReductionPercentage integer @*  Resolution on the smallest axes for the level set. (def: 10)
+---@field public CollisionParticlesFraction number @Number of particles on the triangulated surface to use for collisions.
+---@field public MaximumCollisionParticles integer @Max number of particles.
+local FGeometryCollectionSizeSpecificData = {}

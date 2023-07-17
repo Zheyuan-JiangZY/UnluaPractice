@@ -1,0 +1,11 @@
+---Tracked device types corresponding to ovrTrackedDeviceType enum
+---@class ETrackedDeviceType
+---@field public None integer
+---@field public HMD integer
+---@field public LTouch integer
+---@field public RTouch integer
+---@field public Touch integer
+---@field public DeviceObjectZero integer
+---@field public All integer
+---@field public ETrackedDeviceType_MAX integer
+local ETrackedDeviceType = {}

@@ -1,0 +1,31 @@
+---UGeometryCollectionObject (UObject)
+---UObject wrapper for the FGeometryCollection
+---@class UGeometryCollection : UObject
+---@field public EnableClustering boolean
+---@field public ClusterGroupIndex integer @Maximum level for cluster breaks.
+---@field public MaxClusterLevel integer @Maximum level for cluster breaks.
+---@field public DamageThreshold TArray<number> @Damage threshold for clusters at different levels.
+---@field public ClusterConnectionType EClusterConnectionTypeEnum
+---@field public GeometrySource TArray<FGeometryCollectionSource>
+---@field public Materials TArray<UMaterialInterface>
+---@field public CollisionType ECollisionTypeEnum @*  CollisionType defines how to initialize the rigid collision structures.
+---@field public ImplicitType EImplicitTypeEnum @*  CollisionType defines how to initialize the rigid collision structures.
+---@field public MinLevelSetResolution integer @*  Resolution on the smallest axes for the level set. (def: 5)
+---@field public MaxLevelSetResolution integer @*  Resolution on the smallest axes for the level set. (def: 10)
+---@field public MinClusterLevelSetResolution integer @*  Resolution on the smallest axes for the level set. (def: 5)
+---@field public MaxClusterLevelSetResolution integer @*  Resolution on the smallest axes for the level set. (def: 10)
+---@field public CollisionObjectReductionPercentage number @*  Resolution on the smallest axes for the level set. (def: 10)
+---@field public bMassAsDensity boolean @Mass As Density, units are in kg/m^3
+---@field public Mass number @Total Mass of Collection. If density, units are in kg/m^3
+---@field public MinimumMassClamp number @Smallest allowable mass (def:0.1)
+---@field public CollisionParticlesFraction number @Number of particles on the triangulated surface to use for collisions.
+---@field public MaximumCollisionParticles integer @Max number of particles.
+---@field public SizeSpecificData TArray<FGeometryCollectionSizeSpecificData>
+---@field public EnableRemovePiecesOnFracture boolean @Enable remove pieces on fracture
+---@field public RemoveOnFractureMaterials TArray<UMaterialInterface> @Materials relating to remove on fracture
+---@field public ThumbnailInfo UThumbnailInfo @Information for thumbnail rendering
+---@field private PersistentGuid FGuid @Guid created on construction of this collection. It should be used to uniquely identify this collection
+---@field private StateGuid FGuid @Guid that can be invalidated on demand - essentially a 'version' that should be changed when a structural change is made to the geometry collection. This signals to any caches that attempt to link to a geometry collection whether the collection is still valid (hasn't structurally changed post-recording)
+---@field private BoneSelectedMaterialIndex integer @#todo(dmp): rename to be consistent BoneSelectedMaterialID?
+local UGeometryCollection = {}
+

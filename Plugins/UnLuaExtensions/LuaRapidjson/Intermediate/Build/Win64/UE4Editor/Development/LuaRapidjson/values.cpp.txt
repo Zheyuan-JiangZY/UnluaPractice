@@ -1,0 +1,47 @@
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaRapidjson\Intermediate\Build\Win64\UE4Editor\Development\LuaRapidjson\Definitions.LuaRapidjson.h
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaRapidjson\Source\src\values.hpp
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\INCLUDE\vector
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\INCLUDE\xmemory
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\INCLUDE\limits
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\INCLUDE\cfloat
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\INCLUDE\cwchar
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\INCLUDE\cstdio
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\INCLUDE\isa_availability.h
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\INCLUDE\xutility
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\INCLUDE\__msvc_sanitizer_annotate_container.hpp
+C:\workshop\TestProject\Plugins\UnLua\Source\UnLua\Public\lua.hpp
+C:\workshop\TestProject\Plugins\UnLua\Source\ThirdParty\Lua\lua-5.4.3\src\lua.h
+C:\workshop\TestProject\Plugins\UnLua\Source\ThirdParty\Lua\lua-5.4.3\src\luaconf.h
+C:\workshop\TestProject\Plugins\UnLua\Source\ThirdParty\Lua\lua-5.4.3\src\lualib.h
+C:\workshop\TestProject\Plugins\UnLua\Source\ThirdParty\Lua\lua-5.4.3\src\lauxlib.h
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaRapidjson\Source\include\rapidjson/rapidjson.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt\inttypes.h
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\INCLUDE\cassert
+C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt\assert.h
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaRapidjson\Source\include\rapidjson/document.h
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaRapidjson\Source\include\rapidjson\reader.h
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaRapidjson\Source\include\rapidjson\allocators.h
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaRapidjson\Source\include\rapidjson\stream.h
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaRapidjson\Source\include\rapidjson\encodings.h
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaRapidjson\Source\include\rapidjson\encodedstream.h
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaRapidjson\Source\include\rapidjson\stream.h
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaRapidjson\Source\include\rapidjson\memorystream.h
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaRapidjson\Source\include\rapidjson\stream.h
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaRapidjson\Source\include\rapidjson\internal/clzll.h
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaRapidjson\Source\include\rapidjson\internal/meta.h
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaRapidjson\Source\include\rapidjson\internal/stack.h
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaRapidjson\Source\include\rapidjson\internal\swap.h
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaRapidjson\Source\include\rapidjson\internal/strtod.h
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaRapidjson\Source\include\rapidjson\internal\ieee754.h
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaRapidjson\Source\include\rapidjson\internal\biginteger.h
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaRapidjson\Source\include\rapidjson\internal\diyfp.h
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaRapidjson\Source\include\rapidjson\internal\pow10.h
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaRapidjson\Source\include\rapidjson\error/error.h
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaRapidjson\Source\include\rapidjson\internal/strfunc.h
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaRapidjson\Source\include\rapidjson\internal\../stream.h
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\INCLUDE\iterator
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\INCLUDE\iosfwd
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaRapidjson\Source\include\rapidjson/error/en.h
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaRapidjson\Source\src\luax.hpp
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\INCLUDE\cmath
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaRapidjson\Source\src\StringStream.hpp

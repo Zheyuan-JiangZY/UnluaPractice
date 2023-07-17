@@ -1,0 +1,11 @@
+---@class EOculusDeviceType
+---@field public OculusMobile_Deprecated0 integer
+---@field public OculusQuest integer
+---@field public OculusQuest2 integer
+---@field public Rift integer
+---@field public Rift_S integer
+---@field public Quest_Link integer
+---@field public Quest2_Link integer
+---@field public OculusUnknown integer
+---@field public EOculusDeviceType_MAX integer
+local EOculusDeviceType = {}

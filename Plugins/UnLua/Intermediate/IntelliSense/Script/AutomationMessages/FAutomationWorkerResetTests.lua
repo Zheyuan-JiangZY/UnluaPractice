@@ -1,0 +1,2 @@
+---@class FAutomationWorkerResetTests
+local FAutomationWorkerResetTests = {}

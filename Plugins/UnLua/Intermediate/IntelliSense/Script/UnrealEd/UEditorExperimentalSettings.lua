@@ -1,0 +1,32 @@
+---Implements Editor settings for experimental features.
+---@class UEditorExperimentalSettings : UObject
+---@field public bHDREditor boolean @Allows the editor to run on HDR monitors on Windows 10
+---@field public HDREditorNITLevel number @The brightness of the slate UI on HDR monitors
+---@field public bProceduralFoliage boolean @Allows usage of the procedural foliage system
+---@field public bEnableLocalizationDashboard boolean @Allows usage of the Localization Dashboard
+---@field public bEnableTranslationPicker boolean @Allows usage of the Translation Picker
+---@field public bEnableFavoriteSystem boolean @When enabled, all details panels will be able to have properties marked as favorite that show in a top most category. NOTE: Some customizations are not supported yet
+---@field public ConsoleForGamepadLabels integer @Specify which console-specific nomenclature to use for gamepad label text
+---@field public bToolbarCustomization boolean @Allows for customization of toolbars and menus throughout the editor
+---@field public bBreakOnExceptions boolean @Break on Exceptions allows you to trap Access Nones and other exceptional events in Blueprints.
+---@field public bEnableOneFilePerActorSupport boolean @Allows the One File Per Actor option for worlds
+---@field protected BaseClassesToAllowRecompilingDuringPlayInEditor TArray<TSoftClassPtr<UObject>> @Any blueprint deriving from one of these base classes will be allowed to recompile during Play-in-Editor
+---@field protected ResolvedBaseClassesToAllowRecompilingDuringPlayInEditor TArray<TSubclassOf<UObject>>
+---@field public bDrawMidpointArrowsInBlueprints boolean @, Category=Blueprints, meta=(DisplayName="Draw midpoint arrows in Blueprints")
+---@field public bContextMenuChunkAssignments boolean @Allows ChunkIDs to be assigned to assets to via the content browser context menu.
+---@field public bDisableCookInEditor boolean @Disable cook in the editor
+---@field public bSharedCookedBuilds boolean
+---@field public MultiProcessCooking integer
+---@field public bAllowLateJoinInPIE boolean @Enable late joining in PIE
+---@field public bAllowVulkanPreview boolean @Allow Vulkan Preview
+---@field public bEnableMultithreadedLightmapEncoding boolean @Enable multithreaded lightmap encoding (decreases time taken to encode lightmaps)
+---@field public bEnableMultithreadedShadowmapEncoding boolean @Enable multithreaded shadow map encoding (decreases time taken to encode shadow maps)
+---@field public bUseOpenCLForConvexHullDecomp boolean @Whether to use OpenCL to accelerate convex hull decomposition (uses GPU to decrease time taken to decompose meshes, currently only available on Mac OS X)
+---@field public bAllowPotentiallyUnsafePropertyEditing boolean @Allows editing of potentially unsafe properties during PIE. Advanced use only - use with caution.
+---@field public bFacialAnimationImporter boolean @Enable experimental bulk facial animation importer (found in Developer Tools menu, requires editor restart)
+---@field public bMobilePIEPreviewDeviceLaunch boolean @Enable experimental PIE preview device launch
+---@field public bTextAssetFormatSupport boolean @Enables in-editor support for text asset formats
+---@field public bExampleLayersAndBlends boolean @When creating new Material Layers and Material Layer Blends, set up example graphs.
+---@field public bEnableLongPathsSupport boolean @Allows creation of assets with paths longer than 260 characters. Note that this also requires the Windows 10 Anniversary Update (1607), and support for long paths to be enabled through the group policy editor.
+local UEditorExperimentalSettings = {}
+

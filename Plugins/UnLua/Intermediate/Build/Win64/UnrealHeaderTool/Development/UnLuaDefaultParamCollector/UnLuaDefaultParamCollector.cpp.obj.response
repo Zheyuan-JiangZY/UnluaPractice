@@ -1,0 +1,58 @@
+/Zc:inline
+/nologo
+/Oi
+/c
+/Gw
+/Gy
+/Zm1000
+/wd4819
+/D_CRT_STDIO_LEGACY_WIDE_SPECIFIERS=1
+/D_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1
+/D_WINDLL
+/D_DISABLE_EXTENDED_ALIGNED_STORAGE
+/source-charset:utf-8
+/execution-charset:utf-8
+/Ob2
+/Ox
+/Ot
+/GF
+/errorReport:prompt
+/EHsc
+/Z7
+/MD
+/bigobj
+/fp:fast
+/Zo
+/Zp8
+/we4456
+/we4458
+/we4459
+/wd4463
+/we4668
+/wd4244
+/wd4838
+/I .
+/I C:\workshop\TestProject\Plugins\UnLua\Source\UnLuaDefaultParamCollector\Private
+/I C:\workshop\TestProject\Plugins\UnLua\Source\UnLua\Private
+/I Runtime
+/I Runtime\TraceLog\Public
+/I Runtime\Core\Public
+/I ..\Intermediate\Build\Win64\UnrealHeaderTool\Inc\CoreUObject
+/I Runtime\CoreUObject\Public
+/I C:\workshop\TestProject\Plugins\UnLua\Source
+/I Programs\UnrealHeaderTool\Public
+/I "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"
+/FI"C:\workshop\TestProject\Intermediate\Build\Win64\UnrealHeaderTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"
+/Yu"C:\workshop\TestProject\Intermediate\Build\Win64\UnrealHeaderTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"
+/Fp"C:\workshop\TestProject\Intermediate\Build\Win64\UnrealHeaderTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h.pch"
+"C:\workshop\TestProject\Plugins\UnLua\Source\UnLuaDefaultParamCollector\Private\UnLuaDefaultParamCollector.cpp"
+/FI"C:\workshop\TestProject\Plugins\UnLua\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnLuaDefaultParamCollector\Definitions.UnLuaDefaultParamCollector.h"
+/Fo"C:\workshop\TestProject\Plugins\UnLua\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnLuaDefaultParamCollector\UnLuaDefaultParamCollector.cpp.obj"
+/TP
+/GR-
+/W4

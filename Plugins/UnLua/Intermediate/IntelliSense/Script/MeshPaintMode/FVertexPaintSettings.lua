@@ -1,0 +1,15 @@
+---Vertex Painting settings structure used for vertex color and texture blend weight painting
+---@class FVertexPaintSettings
+---@field public MeshPaintMode EMeshPaintMode
+---@field public PaintColor FLinearColor @Color used for Applying Vertex Color Painting
+---@field public EraseColor FLinearColor @Color used for Erasing Vertex Color Painting
+---@field public bWriteRed boolean @Whether or not to apply Vertex Color Painting to the Red Channel
+---@field public bWriteGreen boolean @Whether or not to apply Vertex Color Painting to the Green Channel
+---@field public bWriteBlue boolean @Whether or not to apply Vertex Color Painting to the Blue Channel
+---@field public bWriteAlpha boolean @Whether or not to apply Vertex Color Painting to the Alpha Channel
+---@field public TextureWeightType ETextureWeightTypes @Texture Blend Weight Painting Mode
+---@field public PaintTextureWeightIndex ETexturePaintIndex @Texture Blend Weight index which should be applied during Painting
+---@field public EraseTextureWeightIndex ETexturePaintIndex @Texture Blend Weight index which should be erased during Painting
+---@field public bPaintOnSpecificLOD boolean @When unchecked the painting on the base LOD will be propagate automatically to all other LODs when exiting the mode or changing the selection
+---@field public LODIndex integer @LOD Index to which should specifically be painted
+local FVertexPaintSettings = {}

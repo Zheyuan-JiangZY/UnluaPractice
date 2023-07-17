@@ -1,0 +1,52 @@
+---Serializable options for sequencer.
+---@class USequencerSettings : UObject
+---@field protected AutoChangeMode EAutoChangeMode @The auto change mode (auto-key, auto-track or none).
+---@field protected AllowEditsMode EAllowEditsMode @Allow edits mode.
+---@field protected KeyGroupMode EKeyGroupMode @Key group mode.
+---@field protected KeyInterpolation EMovieSceneKeyInterpolation @The interpolation type for newly created keyframes
+---@field protected bAutoSetTrackDefaults boolean @When setting keys on properties and transforms automatically update the track default values used when there are no keys.
+---@field protected SpawnPosition integer @The default location of a spawnable when it is first dragged into the viewport from the content browser.
+---@field protected bCreateSpawnableCameras boolean @Enable or disable creating of spawnable cameras whenever cameras are created.
+---@field protected bShowRangeSlider boolean @Show the in/out range in the timeline with respect to the start/end range.
+---@field protected bIsSnapEnabled boolean @Enable or disable snapping in the timeline.
+---@field protected bSnapKeyTimesToInterval boolean @Enable or disable snapping keys to the time snapping interval.
+---@field protected bSnapKeyTimesToKeys boolean @Enable or disable snapping keys to other keys.
+---@field protected bSnapSectionTimesToInterval boolean @Enable or disable snapping sections to the time snapping interval.
+---@field protected bSnapSectionTimesToSections boolean @Enable or disable snapping sections to other sections.
+---@field protected bSnapKeysAndSectionsToPlayRange boolean @Enable or disable keeping keys and sections in the playback range.
+---@field protected bSnapPlayTimeToKeys boolean @Enable or disable snapping the current time to keys of the selected track while scrubbing.
+---@field protected bSnapPlayTimeToInterval boolean @Enable or disable snapping the current time to the time snapping interval while scrubbing.
+---@field protected bSnapPlayTimeToPressedKey boolean @Enable or disable snapping the current time to the pressed key.
+---@field protected bSnapPlayTimeToDraggedKey boolean @Enable or disable snapping the current time to the dragged key.
+---@field protected bSnapCurveValueToInterval boolean @Enable or disable snapping the curve value to the curve value interval.
+---@field protected bShowSelectedNodesOnly boolean @Only show selected nodes in the tree view.
+---@field protected bRewindOnRecord boolean @Defines whether to jump back to the start of the sequence when a recording is started
+---@field protected ZoomPosition integer @Whether to zoom in on the current position or the current time in the timeline.
+---@field protected bAutoScrollEnabled boolean @Enable or disable auto scroll in the timeline when playing.
+---@field protected bLinkCurveEditorTimeRange boolean @Enable or disable linking the curve editor time range to the sequencer timeline's time range.
+---@field protected bSynchronizeCurveEditorSelection boolean @When enabled, changing the sequencer tree selection will also select the relevant nodes in the curve editor tree if possible.
+---@field protected bIsolateCurveEditorToSelection boolean @When enabled, changing the sequencer tree selection will isolate (auto-filter) the selected nodes in the curve editor.
+---@field protected LoopMode integer @The loop mode of the playback in timeline.
+---@field protected bKeepCursorInPlayRangeWhileScrubbing boolean @Enable or disable keeping the cursor in the current playback range while scrubbing.
+---@field protected bKeepPlayRangeInSectionBounds boolean @Enable or disable keeping the playback range constrained to the section bounds.
+---@field protected ZeroPadFrames integer @The number of zeros to pad the frame numbers by.
+---@field protected JumpFrameIncrement FFrameNumber @The number of frames to jump by when jumping forward or backwards.
+---@field protected bShowCombinedKeyframes boolean @Enable or disable the combined keyframes at the top node level. Disabling can improve editor performance.
+---@field protected bInfiniteKeyAreas boolean @Enable or disable setting key area sections as infinite by default.
+---@field protected bShowChannelColors boolean @Enable or disable displaying channel bar colors for vector properties.
+---@field protected ReduceKeysTolerance number @The tolerance to use when reducing keys
+---@field protected bDeleteKeysWhenTrimming boolean @Enable or disable deleting keys that fall beyond the section range when trimming.
+---@field protected bDisableSectionsAfterBaking boolean @Whether to disable sections after baking as opposed to deleting.
+---@field protected bCleanPlaybackMode boolean @When enabled, sequencer will playback in clean mode (game view, hide viewport UI)
+---@field protected bActivateRealtimeViewports boolean @When enabled, sequencer will activate 'Realtime' in viewports
+---@field protected bEvaluateSubSequencesInIsolation boolean @When enabled, entering a sub sequence will evaluate that sub sequence in isolation, rather than from the master sequence
+---@field protected bRerunConstructionScripts boolean @When enabled, construction scripts will be rerun on bound actors for every frame
+---@field protected bShowDebugVisualization boolean @Enable or disable showing of debug visualization.
+---@field protected bVisualizePreAndPostRoll boolean @Enable or disable showing of pre and post roll visualization.
+---@field protected bCompileDirectorOnEvaluate boolean @Whether to recompile the director blueprint when the sequence is evaluated (if one exists)
+---@field protected TrajectoryPathCap integer @Specifies the maximum number of keys to draw when rendering trajectories in viewports
+---@field protected bShowOutlinerInfoColumn boolean @Whether to show the sequencer outliner info column
+---@field protected FrameNumberDisplayFormat EFrameNumberDisplayFormats @What format do we display time in to the user?
+---@field protected MovieRendererName string @Which movie renderer to use
+local USequencerSettings = {}
+

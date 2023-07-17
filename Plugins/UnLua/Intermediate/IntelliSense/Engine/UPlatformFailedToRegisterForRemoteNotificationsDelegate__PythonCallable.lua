@@ -1,0 +1,3 @@
+---@class UPlatformFailedToRegisterForRemoteNotificationsDelegate__PythonCallable : UPythonCallableForDelegate
+local UPlatformFailedToRegisterForRemoteNotificationsDelegate__PythonCallable = {}
+

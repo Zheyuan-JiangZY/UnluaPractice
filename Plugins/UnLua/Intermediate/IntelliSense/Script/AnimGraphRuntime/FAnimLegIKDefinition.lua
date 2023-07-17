@@ -1,0 +1,11 @@
+---Per foot definitions
+---@class FAnimLegIKDefinition
+---@field public IKFootBone FBoneReference
+---@field public FKFootBone FBoneReference
+---@field public NumBonesInLimb integer
+---@field public MinRotationAngle number @Only used if bEnableRotationLimit is enabled. Prevents the leg from folding onto itself, and forces at least this angle between Parent and Child bone.
+---@field public FootBoneForwardAxis integer @Forward Axis for Foot bone.
+---@field public HingeRotationAxis integer @Hinge Bones Rotation Axis. This is essentially the plane normal for (hip - knee - foot).
+---@field public bEnableRotationLimit boolean @If enabled, we prevent the leg from bending backwards and enforce a min compression angle
+---@field public bEnableKneeTwistCorrection boolean @Enable Knee Twist correction, by comparing Foot FK with Foot IK orientation.
+local FAnimLegIKDefinition = {}

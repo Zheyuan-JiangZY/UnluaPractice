@@ -1,0 +1,13 @@
+---Structure storing Data for pre-computation
+---@class FAtmospherePrecomputeParameters
+---@field public DensityHeight number @Rayleigh scattering density height scale, ranges from [0...1]
+---@field public MaxScatteringOrder integer @Maximum scattering order
+---@field public TransmittanceTexWidth integer @Transmittance Texture Width
+---@field public TransmittanceTexHeight integer @Transmittance Texture Height
+---@field public IrradianceTexWidth integer @Irradiance Texture Width
+---@field public IrradianceTexHeight integer @Irradiance Texture Height
+---@field public InscatterAltitudeSampleNum integer @Number of different altitudes at which to sample inscatter color (size of 3D texture Z dimension)
+---@field public InscatterMuNum integer @Inscatter Texture Height
+---@field public InscatterMuSNum integer @Inscatter Texture Width
+---@field public InscatterNuNum integer @Inscatter Texture Width
+local FAtmospherePrecomputeParameters = {}

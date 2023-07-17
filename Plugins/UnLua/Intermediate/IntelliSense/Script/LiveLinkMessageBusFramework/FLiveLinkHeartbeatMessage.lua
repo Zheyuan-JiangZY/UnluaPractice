@@ -1,0 +1,2 @@
+---@class FLiveLinkHeartbeatMessage
+local FLiveLinkHeartbeatMessage = {}

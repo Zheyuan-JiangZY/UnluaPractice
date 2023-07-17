@@ -1,0 +1,2 @@
+---@class FARPointUpdatePayload
+local FARPointUpdatePayload = {}

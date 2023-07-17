@@ -1,0 +1,3 @@
+---@class UMagicLeapPersistentPlanesResultDelegateMulti__PythonCallable : UPythonCallableForDelegate
+local UMagicLeapPersistentPlanesResultDelegateMulti__PythonCallable = {}
+

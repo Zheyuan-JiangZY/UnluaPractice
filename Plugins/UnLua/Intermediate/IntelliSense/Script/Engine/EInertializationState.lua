@@ -1,0 +1,11 @@
+---Inertialization: High-Performance Animation Transitions in 'Gears of War'
+---David Bollo
+---Game Developer Conference 2018
+---https:www.gdcvault.com/play/1025165/Inertialization
+---https:www.gdcvault.com/play/1025331/Inertialization
+---@class EInertializationState
+---@field public Inactive integer
+---@field public Pending integer
+---@field public Active integer
+---@field public EInertializationState_MAX integer
+local EInertializationState = {}

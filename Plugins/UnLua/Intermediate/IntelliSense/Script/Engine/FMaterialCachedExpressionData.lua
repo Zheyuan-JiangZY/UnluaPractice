@@ -1,0 +1,13 @@
+---@class FMaterialCachedExpressionData
+---@field public Parameters FMaterialCachedParameters
+---@field public ReferencedTextures TArray<UObject> @Array of all texture referenced by this material
+---@field public FunctionInfos TArray<FMaterialFunctionInfo> @Array of all functions this material depends on.
+---@field public ParameterCollectionInfos TArray<FMaterialParameterCollectionInfo> @Array of all parameter collections this material depends on.
+---@field public DefaultLayers TArray<UMaterialFunctionInterface>
+---@field public DefaultLayerBlends TArray<UMaterialFunctionInterface>
+---@field public GrassTypes TArray<ULandscapeGrassType>
+---@field public DynamicParameterNames TArray<string>
+---@field public QualityLevelsUsed TArray<boolean>
+---@field public bHasRuntimeVirtualTextureOutput boolean
+---@field public bHasSceneColor boolean
+local FMaterialCachedExpressionData = {}

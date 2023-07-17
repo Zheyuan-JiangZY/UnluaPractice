@@ -1,0 +1,8 @@
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaSocket\Intermediate\Build\Win64\UE4Editor\Development\LuaSocket\Definitions.LuaSocket.h
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaSocket\Source\src\luasocket.h
+C:\workshop\TestProject\Plugins\UnLua\Source\UnLua\Public\lua.hpp
+C:\workshop\TestProject\Plugins\UnLua\Source\ThirdParty\Lua\lua-5.4.3\src\lua.h
+C:\workshop\TestProject\Plugins\UnLua\Source\ThirdParty\Lua\lua-5.4.3\src\luaconf.h
+C:\workshop\TestProject\Plugins\UnLua\Source\ThirdParty\Lua\lua-5.4.3\src\lualib.h
+C:\workshop\TestProject\Plugins\UnLua\Source\ThirdParty\Lua\lua-5.4.3\src\lauxlib.h
+C:\workshop\TestProject\Plugins\UnLuaExtensions\LuaSocket\Source\src\auxiliar.h

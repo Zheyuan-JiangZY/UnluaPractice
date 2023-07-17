@@ -1,0 +1,12 @@
+---@class ETextureSourceFormat
+---@field public TSF_Invalid integer
+---@field public TSF_G8 integer
+---@field public TSF_BGRA8 integer
+---@field public TSF_BGRE8 integer
+---@field public TSF_RGBA16 integer
+---@field public TSF_RGBA16F integer
+---@field public TSF_RGBA8 integer
+---@field public TSF_RGBE8 integer
+---@field public TSF_G16 integer
+---@field public TSF_MAX integer
+local ETextureSourceFormat = {}

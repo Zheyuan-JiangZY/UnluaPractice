@@ -1,0 +1,12 @@
+---@class FNiagaraVariableMetaData
+---@field public Description string
+---@field public CategoryName string
+---@field public bAdvancedDisplay boolean @Declares that this input is advanced and should only be visible if expanded inputs have been expanded.
+---@field public EditorSortPriority integer @Affects the sort order in the editor stacks. Use a smaller number to push it to the top. Defaults to zero.
+---@field public bInlineEditConditionToggle boolean @Declares the associated input is used as an inline edit condition toggle, so it should be hidden and edited as a       checkbox inline with the input which was designated as its edit condition.
+---@field public EditCondition FNiagaraInputConditionMetadata @Declares the associated input should be conditionally editable based on the value of another input.
+---@field public VisibleCondition FNiagaraInputConditionMetadata @Declares the associated input should be conditionally visible based on the value of another input.
+---@field public PropertyMetaData TMap<string, string> @Property Metadata
+---@field public ParentAttribute string @If set, this attribute is visually displayed as a child under the given parent attribute. Currently, only static switches are supported as parent attributes!
+---@field private VariableGuid FGuid @A unique identifier for the variable that can be used by function call nodes to find renamed variables.
+local FNiagaraVariableMetaData = {}

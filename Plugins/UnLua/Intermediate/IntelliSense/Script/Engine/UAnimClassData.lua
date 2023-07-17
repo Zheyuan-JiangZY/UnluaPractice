@@ -1,0 +1,21 @@
+---@class UAnimClassData : UObject
+---@field public BakedStateMachines TArray<FBakedAnimationStateMachine> @List of state machines present in this blueprint class
+---@field public TargetSkeleton USkeleton @Target skeleton for this blueprint class
+---@field public AnimNotifies TArray<FAnimNotifyEvent> @A list of anim notifies that state machines (or anything else) may reference
+---@field public OrderedSavedPoseIndicesMap TMap<string, FCachedPoseIndices> @Indices for each of the saved pose nodes that require updating, in the order they need to get updates.
+---@field public AnimBlueprintFunctions TArray<FAnimBlueprintFunction> @All of the functions that this anim class provides
+---@field public AnimBlueprintFunctionData TArray<FAnimBlueprintFunctionData> @Serialized function data, used to patch up transient data in AnimBlueprintFunctions
+---@field public AnimNodeProperties TArray<Unknown> @The array of anim nodes
+---@field public LinkedAnimGraphNodeProperties TArray<Unknown> @The array of linked anim graph nodes
+---@field public LinkedAnimLayerNodeProperties TArray<Unknown> @The array of linked anim layer nodes
+---@field public PreUpdateNodeProperties TArray<Unknown> @Array of nodes that need a PreUpdate() call
+---@field public DynamicResetNodeProperties TArray<Unknown> @Array of nodes that need a DynamicReset() call
+---@field public StateMachineNodeProperties TArray<Unknown> @Array of state machine nodes
+---@field public InitializationNodeProperties TArray<Unknown> @Array of nodes that need an OnInitializeAnimInstance call
+---@field public GraphNameAssetPlayers TMap<string, FGraphAssetPlayerInformation> @Indices for any Asset Player found within a specific (named) Anim Layer Graph, or implemented Anim Interface Graph
+---@field public SyncGroupNames TArray<string> @Array of sync group names in the order that they are requested during compile
+---@field public EvaluateGraphExposedInputs TArray<FExposedValueHandler> @The default handler for graph-exposed inputs
+---@field public GraphBlendOptions TMap<string, FAnimGraphBlendOptions> @Per layer graph blending options
+---@field public PropertyAccessLibrary FPropertyAccessLibrary @Property access library
+local UAnimClassData = {}
+

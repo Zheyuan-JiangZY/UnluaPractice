@@ -1,0 +1,25 @@
+---Encapsulates NavLinkCustomInterface interface, can be used with Actors not relevant for navigation
+---Additional functionality:
+---- can be toggled
+---- can create obstacle area for easier/forced separation of link end points
+---- can broadcast state changes to nearby agents
+---@class UNavLinkCustomComponent : UNavRelevantComponent
+---@field protected NavLinkUserId integer @link Id assigned by navigation system
+---@field protected EnabledAreaClass TSubclassOf<UNavArea> @area class to use when link is enabled
+---@field protected DisabledAreaClass TSubclassOf<UNavArea> @area class to use when link is disabled
+---@field protected SupportedAgents FNavAgentSelector @restrict area only to specified agents
+---@field protected LinkRelativeStart FVector @start point, relative to owner
+---@field protected LinkRelativeEnd FVector @end point, relative to owner
+---@field protected LinkDirection integer @direction of link
+---@field protected bLinkEnabled boolean @is link currently in enabled state? (area class)
+---@field protected bNotifyWhenEnabled boolean @should link notify nearby agents when it changes state to enabled
+---@field protected bNotifyWhenDisabled boolean @should link notify nearby agents when it changes state to disabled
+---@field protected bCreateBoxObstacle boolean @if set, box obstacle area will be added to generation
+---@field protected ObstacleOffset FVector @offset of simple box obstacle
+---@field protected ObstacleExtent FVector @extent of simple box obstacle
+---@field protected ObstacleAreaClass TSubclassOf<UNavArea> @area class for simple box obstacle
+---@field protected BroadcastRadius number @radius of state change broadcast
+---@field protected BroadcastInterval number @interval for state change broadcast (0 = single broadcast)
+---@field protected BroadcastChannel integer @trace channel for state change broadcast
+local UNavLinkCustomComponent = {}
+

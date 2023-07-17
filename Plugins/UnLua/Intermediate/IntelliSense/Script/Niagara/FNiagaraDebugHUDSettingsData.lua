@@ -1,0 +1,37 @@
+---Settings for Niagara debug HUD. Contained in it's own struct so that we can pass it whole in a message to the debugger client.
+---@class FNiagaraDebugHUDSettingsData
+---@field public bEnabled boolean @Master control for all HUD features.
+---@field public bValidateSystemSimulationDataBuffers boolean @When enabled all Niagara systems that pass the filter will have the simulation data buffers validation. i.e. we will look for NaN or other invalidate data  inside it Note: This will have an impact on performance.
+---@field public bValidateParticleDataBuffers boolean @When enabled all Niagara systems that pass the filter will have the particle data buffers validation. i.e. we will look for NaN or other invalidate data  inside it Note: This will have an impact on performance.
+---@field public bOverviewEnabled boolean @When enabled the overview display will be enabled.
+---@field public OverviewFont ENiagaraDebugHudFont @Overview display font to use.
+---@field public OverviewLocation FVector2D @Overview display location.
+---@field public ActorFilter string @Wildcard filter which is compared against the Components Actor name to narrow down the detailed information. For example, "*Water*" would match all actors that contain the string "water".
+---@field public bComponentFilterEnabled boolean
+---@field public ComponentFilter string @Wildcard filter for the components to show more detailed information about. For example, "*MyComp*" would match all components that contain MyComp.
+---@field public bSystemFilterEnabled boolean
+---@field public SystemFilter string @Wildcard filter for the systems to show more detailed information about. For example,. "NS_*" would match all systems starting with NS_.
+---@field public bEmitterFilterEnabled boolean
+---@field public EmitterFilter string @Wildcard filter used to match emitters when generating particle attribute view. For example,. "Fluid*" would match all emtiters starting with Fluid and only particle attributes for those would be visible.
+---@field public bActorFilterEnabled boolean
+---@field public SystemDebugVerbosity ENiagaraDebugHudVerbosity @When enabled system debug information will be displayed in world.
+---@field public SystemEmitterVerbosity ENiagaraDebugHudVerbosity @When enabled we show information about emitter / particle counts.
+---@field public bSystemShowBounds boolean @When enabled will show the system bounds for all filtered systems.
+---@field public bSystemShowActiveOnlyInWorld boolean @When disabled in world rendering will show systems deactivated by scalability.
+---@field public bShowSystemVariables boolean @Should we display the system attributes.
+---@field public SystemVariables TArray<FNiagaraDebugHUDVariable> @List of attributes to show about the system, each entry uses wildcard matching. For example, "System.*" would match all system attributes.
+---@field public SystemTextOptions FNiagaraDebugHudTextOptions @Sets display text options for system information.
+---@field public bShowParticleVariables boolean @When enabled will show particle attributes from the list.
+---@field public bEnableGpuParticleReadback boolean @When enabled GPU particle data will be copied from the GPU to the CPU. Warning: This has an impact on performance & memory since we copy the whole buffer. The displayed data is latent since we are seeing what happened a few frames ago.
+---@field public ParticlesVariables TArray<FNiagaraDebugHUDVariable> @List of attributes to show per particle, each entry uses wildcard matching. For example, "*Position" would match all attributes that end in Position.
+---@field public ParticleTextOptions FNiagaraDebugHudTextOptions @Sets display text options for particle information.
+---@field public bShowParticlesVariablesWithSystem boolean @When enabled particle attributes will display with the system information rather than in world at the particle location.
+---@field public bUseMaxParticlesToDisplay boolean
+---@field public MaxParticlesToDisplay integer @When enabled, the maximum number of particles to show information about. When disabled all particles will show attributes, this can result in poor performance & potential OOM on some platforms.
+---@field public PlaybackMode ENiagaraDebugPlaybackMode
+---@field public bPlaybackRateEnabled boolean
+---@field public PlaybackRate number
+---@field public bLoopTimeEnabled boolean
+---@field public LoopTime number
+---@field public bShowGlobalBudgetInfo boolean
+local FNiagaraDebugHUDSettingsData = {}

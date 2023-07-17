@@ -1,0 +1,11 @@
+---
+---Describes which channel ARLineTrace will be performed on.
+---@class ELuminARLineTraceChannel
+---@field public None integer
+---@field public FeaturePoint integer
+---@field public InfinitePlane integer
+---@field public PlaneUsingExtent integer
+---@field public PlaneUsingBoundaryPolygon integer
+---@field public FeaturePointWithSurfaceNormal integer
+---@field public ELuminARLineTraceChannel_MAX integer
+local ELuminARLineTraceChannel = {}

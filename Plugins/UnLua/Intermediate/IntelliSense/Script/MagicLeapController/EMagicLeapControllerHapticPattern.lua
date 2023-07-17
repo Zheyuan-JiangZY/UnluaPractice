@@ -1,0 +1,14 @@
+---Haptic patterns supported on the controller.
+---@class EMagicLeapControllerHapticPattern
+---@field public None integer
+---@field public Click integer
+---@field public Bump integer
+---@field public DoubleClick integer
+---@field public Buzz integer
+---@field public Tick integer
+---@field public ForceDown integer
+---@field public ForceUp integer
+---@field public ForceDwell integer
+---@field public SecondForceDown integer
+---@field public EMagicLeapControllerHapticPattern_MAX integer
+local EMagicLeapControllerHapticPattern = {}

@@ -1,0 +1,23 @@
+---Mesh merging settings
+---@class FMeshMergingSettings
+---@field public TargetLightMapResolution integer @The lightmap resolution used both for generating lightmap UV coordinates, and also set on the generated static mesh
+---@field public OutputUVs EUVOutput @Whether to output the specified UV channels into the merged mesh (only if the source meshes contain valid UVs for the specified channel)
+---@field public MaterialSettings FMaterialProxySettings @Material simplification
+---@field public GutterSize integer @The gutter (in texels) to add to each sub-chart for our baked-out material for the top mip level
+---@field public SpecificLOD integer @A given LOD level to export from the source meshes
+---@field public LODSelectionType EMeshLODSelectionType @Which selection mode should be used when generating the merged static mesh
+---@field public bGenerateLightMapUV boolean @Whether to generate lightmap UVs for a merged mesh
+---@field public bComputedLightMapResolution boolean @Whether or not the lightmap resolution should be computed by summing the lightmap resolutions for the input Mesh Components
+---@field public bPivotPointAtZero boolean @Whether merged mesh should have pivot at world origin, or at first merged component otherwise
+---@field public bMergePhysicsData boolean @Whether to merge physics data (collision primitives)
+---@field public bMergeMaterials boolean @Whether to merge source materials into one flat material, ONLY available when merging a single LOD level, see LODSelectionType
+---@field public bCreateMergedMaterial boolean @Create a flat material from all source materials, along with a new set of UVs. This material won't be applied to any section by default.
+---@field public bBakeVertexDataToMesh boolean @Whether or not vertex data such as vertex colours should be baked into the resulting mesh
+---@field public bUseVertexDataForBakingMaterial boolean @Whether or not vertex data such as vertex colours should be used when baking out materials
+---@field public bUseTextureBinning boolean @Whether or not to calculate varying output texture sizes according to their importance in the final atlas texture
+---@field public bReuseMeshLightmapUVs boolean @Whether to attempt to re-use the source mesh's lightmap UVs when baking the material or always generate a new set.
+---@field public bMergeEquivalentMaterials boolean @Whether to attempt to merge materials that are deemed equivalent. This can cause artifacts in the merged mesh if world position/actor position etc. is used to determine output color.
+---@field public bUseLandscapeCulling boolean @Whether or not to use available landscape geometry to cull away invisible triangles
+---@field public bIncludeImposters boolean @Whether or not to include any imposter LODs that are part of the source static meshes
+---@field public bAllowDistanceField boolean @Whether to allow distance field to be computed for this mesh. Disable this to save memory if the merged mesh will only be rendered in the distance.
+local FMeshMergingSettings = {}

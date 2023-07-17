@@ -1,0 +1,3 @@
+---@class UPlatformReceivedLocalNotificationDelegate__PythonCallable : UPythonCallableForDelegate
+local UPlatformReceivedLocalNotificationDelegate__PythonCallable = {}
+

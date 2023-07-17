@@ -1,0 +1,67 @@
+---Actor containing all script accessible world properties.
+---@class AWorldSettings : AInfo
+---@field public VisibilityCellSize integer @World space size of precomputed visibility cells in x and y. Smaller sizes produce more effective occlusion culling at the cost of increased runtime memory usage and lighting build times.
+---@field public VisibilityAggressiveness integer @Determines how aggressive precomputed visibility should be. More aggressive settings cull more objects but also cause more visibility errors like popping.
+---@field public bPrecomputeVisibility boolean @Whether to place visibility cells inside Precomputed Visibility Volumes and along camera tracks in this level. Precomputing visibility reduces rendering thread time at the cost of some runtime memory and somewhat increased lighting build times.
+---@field public bPlaceCellsOnlyAlongCameraTracks boolean @Whether to place visibility cells only along camera tracks or only above shadow casting surfaces.
+---@field public bEnableWorldBoundsChecks boolean @If true, enables CheckStillInWorld checks
+---@field protected bEnableNavigationSystem boolean
+---@field public bEnableAISystem boolean @if set to false AI system will not get created. Use it to disable all AI-related activity on a map
+---@field public bEnableWorldComposition boolean @Enables tools for composing a tiled world. Level has to be saved and all sub-levels removed before enabling this option.
+---@field public bUseClientSideLevelStreamingVolumes boolean @Enables client-side streaming volumes instead of server-side. Expected usage scenario: server has all streaming levels always loaded, clients independently stream levels in/out based on streaming volumes.
+---@field public bEnableWorldOriginRebasing boolean @World origin will shift to a camera position when camera goes far away from current origin
+---@field public bWorldGravitySet boolean @if set to true, when we call GetGravityZ we assume WorldGravityZ has already been initialized and skip the lookup of DefaultGravityZ and GlobalGravityZ
+---@field public bGlobalGravitySet boolean @If set to true we will use GlobalGravityZ instead of project setting DefaultGravityZ
+---@field public bMinimizeBSPSections boolean @Causes the BSP build to generate as few sections as possible. This is useful when you need to reduce draw calls but can reduce texture streaming efficiency and effective lightmap resolution. Note - changes require a rebuild to propagate.  Also, be sure to select all surfaces and make sure they all have the same flags to minimize section count.
+---@field public bForceNoPrecomputedLighting boolean @Whether to force lightmaps and other precomputed lighting to not be created even when the engine thinks they are needed. This is useful for improving iteration in levels with fully dynamic lighting and shadowing. Note that any lighting and shadowing interactions that are usually precomputed will be lost if this is enabled.
+---@field public bHighPriorityLoading boolean @when this flag is set, more time is allocated to background loading (replicated)
+---@field public bHighPriorityLoadingLocal boolean @copy of bHighPriorityLoading that is not replicated, for clientside-only loading operations
+---@field public bOverrideDefaultBroadphaseSettings boolean
+---@field protected NavigationSystemConfig UNavigationSystemConfig @Holds parameters for NavigationSystem's creation. Set to Null will result     in NavigationSystem instance not being created for this world. Note that     if set NavigationSystemConfigOverride will be used instead.
+---@field protected NavigationSystemConfigOverride UNavigationSystemConfig @Overrides NavigationSystemConfig.
+---@field public WorldToMeters number @scale of 1uu to 1m in real world measurements, for HMD and other physically tracked devices (e.g. 1uu = 1cm would be 100.0)
+---@field public KillZ number @any actor falling below this level gets destroyed
+---@field public KillZDamageType TSubclassOf<UDamageType> @The type of damage inflicted when a actor falls below KillZ
+---@field public WorldGravityZ number @current gravity actually being used
+---@field public GlobalGravityZ number @optional level specific gravity override set by level designer
+---@field public DefaultPhysicsVolumeClass TSubclassOf<ADefaultPhysicsVolume> @level specific default physics volume
+---@field public PhysicsCollisionHandlerClass TSubclassOf<UPhysicsCollisionHandler> @optional level specific collision handler
+---@field public DefaultGameMode TSubclassOf<AGameModeBase> @The default GameMode to use when starting this map in the game. If this value is NULL, the INI setting for default game type is used.
+---@field public GameNetworkManagerClass TSubclassOf<AGameNetworkManager> @Class of GameNetworkManager to spawn for network games
+---@field public PackedLightAndShadowMapTextureSize integer @Maximum size of textures for packed light and shadow maps
+---@field public DefaultColorScale FVector @Default color scale for the level
+---@field public DefaultMaxDistanceFieldOcclusionDistance number @Max occlusion distance used by mesh distance fields, overridden if there is a movable skylight.
+---@field public GlobalDistanceFieldViewDistance number @Distance from the camera that the global distance field should cover.
+---@field public DynamicIndirectShadowsSelfShadowingIntensity number @Controls the intensity of self-shadowing from capsule indirect shadows. These types of shadows use approximate occluder representations, so reducing self-shadowing intensity can hide those artifacts.
+---@field public LightmassSettings FLightmassWorldInfoSettings @LIGHTMASS RELATED SETTINGS *
+---@field public DefaultReverbSettings FReverbSettings @Default reverb settings used by audio volumes.
+---@field public DefaultAmbientZoneSettings FInteriorSettings @Default interior settings used by audio volumes.
+---@field public DefaultBaseSoundMix USoundMix @Default Base SoundMix.
+---@field public bEnableHierarchicalLODSystem boolean @if set to true, hierarchical LODs will be built, which will create hierarchical LODActors
+---@field public HLODSetupAsset TSoftClassPtr<UHierarchicalLODSetup> @If set overrides the level settings and global project settings
+---@field public OverrideBaseMaterial TSoftObjectPtr<UMaterialInterface> @If set overrides the project-wide base material used for Proxy Materials
+---@field protected HierarchicalLODSetup TArray<FHierarchicalSimplification> @Hierarchical LOD Setup
+---@field public NumHLODLevels integer
+---@field public bGenerateSingleClusterForLevel boolean @If set to true, all eligible actors in this level will be added to a single cluster representing the entire level (used for small sublevels)
+---@field public HLODBakingTransform FTransform @Specify the transform to apply to the source meshes when building HLODs.
+---@field public BookMarks UBookMark
+---@field public TimeDilation number @Normally 1 - scales real time passage. Warning - most use cases should use GetEffectiveTimeDilation() instead of reading from this directly
+---@field public MatineeTimeDilation number @Additional time dilation used by Matinee (or Sequencer) slomo track.  Transient because this is often temporarily modified by the editor when previewing slow motion effects, yet we don't want it saved or loaded from level packages.
+---@field public DemoPlayTimeDilation number @Additional TimeDilation used to control demo playback speed
+---@field public MinGlobalTimeDilation number @Lowest acceptable global time dilation.
+---@field public MaxGlobalTimeDilation number @Highest acceptable global time dilation.
+---@field public MinUndilatedFrameTime number @Smallest possible frametime, not considering dilation. Equiv to 1/FastestFPS.
+---@field public MaxUndilatedFrameTime number @Largest possible frametime, not considering dilation. Equiv to 1/SlowestFPS.
+---@field public BroadphaseSettings FBroadphaseSettings
+---@field public Pauser APlayerState
+---@field public ReplicationViewers TArray<FNetViewer> @valid only during replication - information about the player(s) being replicated to (there could be more than one in the case of a splitscreen client)
+---@field protected AssetUserData TArray<UAssetUserData> @Array of user data stored with the asset
+---@field protected PauserPlayerState APlayerState @If paused, PlayerState of person pausing the game.
+---@field private MaxNumberOfBookmarks integer @Maximum number of bookmarks allowed. Changing this will change the allocation of the bookmarks array, and when shrinking may cause some bookmarks to become eligible for GC.
+---@field private DefaultBookmarkClass TSubclassOf<UBookmarkBase> @Class that will be used when creating new bookmarks. Old bookmarks may be recreated with the new class where possible.
+---@field private BookmarkArray TArray<UBookmarkBase>
+---@field private LastBookmarkClass TSubclassOf<UBookmarkBase> @Tracked so we can detect changes from Config
+local AWorldSettings = {}
+
+function AWorldSettings:OnRep_WorldGravityZ() end
+

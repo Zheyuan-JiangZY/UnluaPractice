@@ -1,0 +1,15 @@
+---Settings for the level sequence player actor.
+---@class FMovieSceneSequencePlaybackSettings
+---@field public bAutoPlay boolean @Auto-play the sequence when created
+---@field public LoopCount FMovieSceneSequenceLoopCount @Number of times to loop playback. -1 for infinite, else the number of times to loop before stopping
+---@field public PlayRate number @The rate at which to playback the animation
+---@field public StartTime number @Start playback at the specified offset from the start of the sequence's playback range
+---@field public bRandomStartTime boolean @Start playback at a random time
+---@field public bRestoreState boolean @Flag used to specify whether actor states should be restored on stop
+---@field public bDisableMovementInput boolean @Disable Input from player during play
+---@field public bDisableLookAtInput boolean @Disable LookAt Input from player during play
+---@field public bHidePlayer boolean @Hide Player Pawn during play
+---@field public bHideHud boolean @Hide HUD during play
+---@field public bDisableCameraCuts boolean @Disable camera cuts
+---@field public bPauseAtEnd boolean @Pause the sequence when playback reaches the end rather than stopping it
+local FMovieSceneSequencePlaybackSettings = {}

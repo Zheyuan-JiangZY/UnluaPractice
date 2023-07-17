@@ -1,0 +1,2 @@
+---@class FActiveGizmo
+local FActiveGizmo = {}

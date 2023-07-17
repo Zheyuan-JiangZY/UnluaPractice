@@ -1,0 +1,2 @@
+---@class FMeshElementAttributeValue
+local FMeshElementAttributeValue = {}

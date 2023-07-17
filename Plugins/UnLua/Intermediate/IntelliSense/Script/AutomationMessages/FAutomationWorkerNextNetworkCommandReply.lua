@@ -1,0 +1,2 @@
+---@class FAutomationWorkerNextNetworkCommandReply
+local FAutomationWorkerNextNetworkCommandReply = {}

@@ -1,0 +1,2 @@
+---@class FInertializationCurveDiff
+local FInertializationCurveDiff = {}

@@ -1,0 +1,25 @@
+---LOD settings for a single texture group.
+---@class FTextureLODGroup
+---@field public Group integer @Minimum LOD mip count below which the code won't bias.
+---@field public LODBias integer @Group LOD bias.
+---@field public LODBias_Smaller integer
+---@field public LODBias_Smallest integer
+---@field public NumStreamedMips integer @Number of mip-levels that can be streamed. -1 means all mips can stream.
+---@field public MipGenSettings integer @Defines how the the mip-map generation works, e.g. sharpening
+---@field public MinLODSize integer
+---@field public MaxLODSize integer
+---@field public MaxLODSize_Smaller integer
+---@field public MaxLODSize_Smallest integer
+---@field public OptionalLODBias integer @If this is greater then 0 will put that number of mips into an optional bulkdata package
+---@field public OptionalMaxLODSize integer @Put all the mips which have a width / height larger then OptionalLODSize into an optional bulkdata package
+---@field public MinMagFilter string
+---@field public MipFilter string
+---@field public MipLoadOptions ETextureMipLoadOptions
+---@field public HighPriorityLoad boolean @Wether those assets should be loaded with higher load order and higher IO priority. Allows ProjectXX texture groups to behave as character textures.
+---@field public DuplicateNonOptionalMips boolean
+---@field public Downscale number
+---@field public DownscaleOptions ETextureDownscaleOptions
+---@field public VirtualTextureTileCountBias integer
+---@field public VirtualTextureTileSizeBias integer
+---@field public LossyCompressionAmount integer
+local FTextureLODGroup = {}

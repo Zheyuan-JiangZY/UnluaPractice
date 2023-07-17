@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:CONSOLE
+/DEF
+/NAME:"UnrealHeaderTool-UnLuaDefaultParamCollector.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\workshop\TestProject\Intermediate\Build\Win64\UnrealHeaderTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h.obj"
+"C:\workshop\TestProject\Plugins\UnLua\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnLuaDefaultParamCollector\UnLuaDefaultParamCollector.cpp.obj"
+"C:\workshop\TestProject\Plugins\UnLua\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnLuaDefaultParamCollector\Default.rc2.res"
+/OUT:"C:\workshop\TestProject\Plugins\UnLua\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnLuaDefaultParamCollector\UnrealHeaderTool-UnLuaDefaultParamCollector.lib"

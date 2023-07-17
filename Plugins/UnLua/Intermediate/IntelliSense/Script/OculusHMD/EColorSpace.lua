@@ -1,0 +1,12 @@
+---@class EColorSpace
+---@field public Unknown integer
+---@field public Unmanaged integer
+---@field public Rec_2020 integer
+---@field public Rec_709 integer
+---@field public Rift_CV1 integer
+---@field public Rift_S integer
+---@field public Quest integer
+---@field public P3 integer
+---@field public Adobe_RGB integer
+---@field public EColorSpace_MAX integer
+local EColorSpace = {}

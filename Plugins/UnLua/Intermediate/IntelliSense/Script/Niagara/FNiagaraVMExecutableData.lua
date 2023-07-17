@@ -1,0 +1,36 @@
+---Struct containing all of the data needed to run a Niagara VM executable script.
+---@class FNiagaraVMExecutableData
+---@field public ByteCode TArray<integer> @Byte code to execute for this system
+---@field public OptimizedByteCode TArray<integer> @Runtime optimized byte code, specific to the system we are running on, currently can not be serialized
+---@field public NumTempRegisters integer @Number of temp registers used by this script.
+---@field public NumUserPtrs integer @Number of user pointers we must pass to the VM.
+---@field public Parameters FNiagaraParameters @All the data for using external constants in the script, laid out in the order they are expected in the uniform table.
+---@field public InternalParameters FNiagaraParameters @All the data for using external constants in the script, laid out in the order they are expected in the uniform table.
+---@field public ExternalDependencies TArray<FNiagaraCompileDependency> @List of all external dependencies of this script. If not met, linking should result in an error.
+---@field public CompileTags TArray<FNiagaraCompilerTag>
+---@field public ScriptLiterals TArray<integer>
+---@field public Attributes TArray<FNiagaraVariable> @Attributes used by this script.
+---@field public DataUsage FNiagaraScriptDataUsageInfo @Contains various usage information for this script.
+---@field public DataSetToParameters TMap<string, FNiagaraParameters>
+---@field public AdditionalExternalFunctions TArray<FNiagaraFunctionSignature>
+---@field public DataInterfaceInfo TArray<FNiagaraScriptDataInterfaceCompileInfo> @Information about all data interfaces used by this script.
+---@field public CalledVMExternalFunctions TArray<FVMExternalFunctionBindingInfo> @Array of ordered vm external functions to place in the function table.
+---@field public ReadDataSets TArray<FNiagaraDataSetID>
+---@field public WriteDataSets TArray<FNiagaraDataSetProperties>
+---@field public StatScopes TArray<FNiagaraStatScope> @Scopes we'll track with stats.
+---@field public LastHlslTranslation string
+---@field public LastHlslTranslationGPU string
+---@field public LastAssemblyTranslation string
+---@field public LastOpCount integer
+---@field public DIParamInfo TArray<FNiagaraDataInterfaceGPUParamInfo>
+---@field public ParameterCollectionPaths TArray<string> @The parameter collections used by this script.
+---@field public LastCompileStatus ENiagaraScriptCompileStatus @Last known compile status. Lets us determine the latest state of the script byte buffer.
+---@field public SimulationStageMetaData TArray<FSimulationStageMetaData>
+---@field public bReadsAttributeData boolean
+---@field public AttributesWritten TArray<FNiagaraVariableBase> @List of all attributes explicitly written by this VM script graph. Used to verify external dependencies.
+---@field public ErrorMsg string
+---@field public CompileTime number
+---@field public LastCompileEvents TArray<FNiagaraCompileEvent> @Array of all compile events generated last time the script was compiled.
+---@field public bReadsSignificanceIndex boolean
+---@field public bNeedsGPUContextInit boolean
+local FNiagaraVMExecutableData = {}

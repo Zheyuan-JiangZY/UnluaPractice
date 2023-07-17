@@ -1,0 +1,3 @@
+---@class ULuminApplicationLifetimeFocusLostDelegate__PythonCallable : UPythonCallableForDelegate
+local ULuminApplicationLifetimeFocusLostDelegate__PythonCallable = {}
+

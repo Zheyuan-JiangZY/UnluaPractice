@@ -1,0 +1,11 @@
+---@class EARTextureType
+---@field public Unknown integer
+---@field public CameraImage integer
+---@field public CameraDepth integer
+---@field public EnvironmentCapture integer
+---@field public PersonSegmentationImage integer
+---@field public PersonSegmentationDepth integer
+---@field public SceneDepthMap integer
+---@field public SceneDepthConfidenceMap integer
+---@field public EARTextureType_MAX integer
+local EARTextureType = {}

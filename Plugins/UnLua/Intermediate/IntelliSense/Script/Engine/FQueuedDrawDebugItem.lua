@@ -1,0 +1,16 @@
+---@class FQueuedDrawDebugItem
+---@field public ItemType integer
+---@field public StartLoc FVector
+---@field public EndLoc FVector
+---@field public Center FVector
+---@field public Rotation FRotator
+---@field public Radius number
+---@field public Size number
+---@field public Segments integer
+---@field public Color FColor
+---@field public bPersistentLines boolean
+---@field public LifeTime number
+---@field public Thickness number
+---@field public Message string
+---@field public TextScale FVector2D
+local FQueuedDrawDebugItem = {}

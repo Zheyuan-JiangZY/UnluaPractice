@@ -1,0 +1,16 @@
+---Texture source data management.
+---@class FTextureSource
+---@field private Id FGuid @GUID used to track changes to the source data.
+---@field private BaseBlockX integer @Position of texture block0, only relevant if source has multiple blocks
+---@field private BaseBlockY integer
+---@field private SizeX integer @Width of the texture.
+---@field private SizeY integer @Height of the texture.
+---@field private NumSlices integer @Depth (volume textures) or faces (cube maps).
+---@field private NumMips integer @Number of mips provided as source data for the texture.
+---@field private NumLayers integer @Number of layers (for multi-layered virtual textures) provided as source data for the texture.
+---@field private bPNGCompressed boolean @RGBA8 source data is optionally compressed as PNG.
+---@field private bGuidIsHash boolean @Uses hash instead of guid to identify content to improve DDC cache hit.
+---@field private Format integer @Format in which the source data is stored.
+---@field private LayerFormat TArray<integer> @For multi-layered sources, each layer may have a different format (in this case LayerFormat[0] == Format) .
+---@field private Blocks TArray<FTextureSourceBlock> @All sources have 1 implicit block defined by BaseBlockXY/SizeXY members.  Textures imported as UDIM may have additional blocks defined here. These are stored sequentially in the source's bulk data.
+local FTextureSource = {}

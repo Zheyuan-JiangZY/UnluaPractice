@@ -1,0 +1,11 @@
+---@class EQuatSwizzleAxisB
+---@field public X integer
+---@field public Y integer
+---@field public Z integer
+---@field public W integer
+---@field public MinusX integer
+---@field public MinusY integer
+---@field public MinusZ integer
+---@field public MinusW integer
+---@field public EQuatSwizzleAxisB_MAX integer
+local EQuatSwizzleAxisB = {}

@@ -1,0 +1,28 @@
+---Implements the settings for the Lumin runtime platform.
+---@class ULuminRuntimeSettings : UObject
+---@field public PackageName string @The official name of the project. Note: Must have at least 2 sections separated by a period and be unique!
+---@field public ApplicationDisplayName string @The visual application name displayed for end users.
+---@field public FrameTimingHint ELuminFrameTimingHint @Indicates to the Lumin OS what the application's target framerate is, to improve prediction and reprojection
+---@field public bProtectedContent boolean @Content for this app is protected and should not be recorded or captured outside the graphics system.
+---@field public bManualCallToAppReady boolean @Check this if you wish to manually control when the start up loading animation is dismissed.       in order for their application to finish booting.
+---@field public bUseMobileRendering boolean @If checked, use Mobile Rendering. Otherwise, use Desktop Rendering.
+---@field public bUseVulkan boolean
+---@field public Certificate FFilePath @Certificate File used to sign builds for distribution.
+---@field public IconModelPath FDirectoryPath @Folder containing the assets (FBX / OBJ / MTL / PNG files) used for the Magic Leap App Icon model.
+---@field public IconPortalPath FDirectoryPath @Folder containing the assets (FBX / OBJ / MTL / PNG files) used for the Magic Leap App Icon portal.
+---@field public LocalizedIconInfos FLocalizedIconInfos
+---@field public VersionCode integer @Used as an internal version number. This number is used only to determine whether one version is more recent than another, with higher numbers indicating more recent versions. This is not the version number shown to users.
+---@field public MinimumAPILevel integer @Minimum API level required based on which APIs have been integrated into the base engine. Developers can set higher API levels if they are implementing newer APIs.
+---@field public AppPrivileges TArray<ELuminPrivilege> @Any privileges your app needs.
+---@field public ExtraComponentSubElements TArray<FLuminComponentSubElement> @Extra nodes under the <component> node like <mime-type>, <schema> etc.
+---@field public ExtraComponentElements TArray<FLuminComponentElement> @Extra component elements.
+---@field public SpatializationPlugin string @Which of the currently enabled spatialization plugins to use on Lumin.
+---@field public ReverbPlugin string @Which of the currently enabled reverb plugins to use on Lumin.
+---@field public OcclusionPlugin string @Which of the currently enabled occlusion plugins to use on Lumin.
+---@field public SoundCueCookQualityIndex integer @Quality Level to COOK SoundCues at (if set, all other levels will be stripped by the cooker).
+---@field public bRemoveDebugInfo boolean @Strip debug symbols from packaged builds even if they aren't shipping builds.
+---@field public VulkanValidationLayerLibs FDirectoryPath @Folder containing the libraries required for vulkan validation layers. Can be found under %NDKROOT%/sources/third_party/vulkan/src/build-android/jniLibs/arm64-v8a
+---@field public bFrameVignette boolean @Render frame vignette.
+---@field public LocalizedAppNames TArray<FLocalizedAppName>
+local ULuminRuntimeSettings = {}
+

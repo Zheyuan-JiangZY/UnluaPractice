@@ -1,0 +1,11 @@
+---Test structure for UObject properties.
+---@class FStructSerializerObjectTestStruct
+---@field public Class TSubclassOf<UObject>
+---@field public SubClass TSubclassOf<UMetaData>
+---@field public SoftClass TSoftClassPtr<UMetaData>
+---@field public Object UObject
+---@field public WeakObject TWeakObjectPtr<UMetaData>
+---@field public SoftObject TSoftObjectPtr<UMetaData>
+---@field public ClassPath FSoftClassPath
+---@field public ObjectPath FSoftObjectPath
+local FStructSerializerObjectTestStruct = {}

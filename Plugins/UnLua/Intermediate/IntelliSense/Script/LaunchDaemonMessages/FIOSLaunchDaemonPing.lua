@@ -1,0 +1,2 @@
+---@class FIOSLaunchDaemonPing
+local FIOSLaunchDaemonPing = {}

@@ -1,0 +1,14 @@
+---Frame snapshot information for a level sequence
+---@class FLevelSequencePlayerSnapshot
+---@field public MasterName string
+---@field public MasterTime FQualifiedFrameTime
+---@field public SourceTime FQualifiedFrameTime
+---@field public CurrentShotName string
+---@field public CurrentShotLocalTime FQualifiedFrameTime
+---@field public CurrentShotSourceTime FQualifiedFrameTime
+---@field public SourceTimecode string
+---@field public CameraComponent TSoftObjectPtr<UCameraComponent>
+---@field public Settings FLevelSequenceSnapshotSettings
+---@field public ActiveShot ULevelSequence
+---@field public ShotID FMovieSceneSequenceID
+local FLevelSequencePlayerSnapshot = {}

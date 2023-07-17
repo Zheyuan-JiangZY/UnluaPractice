@@ -1,0 +1,12 @@
+---Settings describing how to record an animation
+---@class FAnimationRecordingSettings
+---@field public bRecordInWorldSpace boolean @Whether to record animation in world space, defaults to true
+---@field public bRemoveRootAnimation boolean @Whether to remove the root bone transform from the animation
+---@field public bAutoSaveAsset boolean @Whether to auto-save asset when recording is completed. Defaults to false
+---@field public SampleRate number @Sample rate of the recorded animation (in Hz)
+---@field public Length number @Maximum length of the animation recorded (in seconds). If zero the animation will keep on recording until stopped.
+---@field public InterpMode integer @Interpolation mode for the recorded keys.
+---@field public TangentMode integer @Tangent mode for the recorded keys.
+---@field public bRecordTransforms boolean @Whether or not to record transforms
+---@field public bRecordCurves boolean @Whether or not to record curves
+local FAnimationRecordingSettings = {}

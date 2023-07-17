@@ -1,0 +1,24 @@
+---Container for properties of a physics constraint that can be easily swapped at runtime. This is useful for switching different setups when going from ragdoll to standup for example
+---@class FConstraintProfileProperties
+---@field public ProjectionLinearTolerance number @[PhysX only] Linear tolerance value in world units. If the distance error exceeds this tolerence limit, the body will be projected.
+---@field public ProjectionAngularTolerance number @[PhysX only] Angular tolerance value in world units. If the distance error exceeds this tolerence limit, the body will be projected.
+---@field public ProjectionLinearAlpha number @[Chaos Only] How much linear projection to apply [0-1]. Projection fixes any post-solve position error in the constraint.
+---@field public ProjectionAngularAlpha number @[Chaos Only] How much angular projection to apply [0-1]. Projection fixes any post-solve angle error in the constraint.
+---@field public LinearBreakThreshold number @Force needed to break the distance constraint.
+---@field public LinearPlasticityThreshold number @Percent threshold from target position needed to reset the spring rest length.
+---@field public AngularBreakThreshold number @Torque needed to break the joint.
+---@field public AngularPlasticityThreshold number @Degree threshold from target angle needed to reset the target angle.
+---@field public LinearLimit FLinearConstraint
+---@field public ConeLimit FConeConstraint
+---@field public TwistLimit FTwistConstraint
+---@field public LinearDrive FLinearDriveConstraint
+---@field public AngularDrive FAngularDriveConstraint
+---@field public bDisableCollision boolean @Disable collision between bodies joined by this constraint.
+---@field public bParentDominates boolean @When set, the parent body in a constraint will not be affected by the motion of the child
+---@field public bEnableProjection boolean @[PhysX] If distance error between bodies exceeds 0.1 units, or rotation error exceeds 10 degrees, body will be projected to fix this. For example a chain spinning too fast will have its elements appear detached due to velocity, this will project all bodies so they still appear attached to each other. [Chaos] Chaos applies a post-solve position and angular fixup where the parent body in the constraint is treated as having infinite mass and the child body is translated and rotated to resolve any remaining errors. This can be used to make constraint chains significantly stiffer at lower iteration counts. Increasing iterations would have the same effect, but be much more expensive. Projection only works well if the chain is not interacting with other objects (e.g., through collisions) because the projection of the bodies in the chain will cause other constraints to be violated. Likewise, if a body is influenced by multiple constraints, then enabling projection on more than one constraint may lead to unexpected results - the "last" constraint would win but the order in which constraints are solved cannot be directly controlled. Note: projection will not be applied to constraints with soft limits.
+---@field public bEnableSoftProjection boolean @[Chaos Only] Apply projection to constraints with soft limits. This can be used to stiffen up soft joints at low iteration counts, but the projection will override a lot of the spring-damper behaviour of the soft limits. E.g., if you have soft projection enabled and ProjectionAngularAlpha = 1.0, the joint will act as if it is a hard limit.
+---@field public bAngularBreakable boolean @Whether it is possible to break the joint with angular force.
+---@field public bAngularPlasticity boolean @Whether it is possible to reset target rotations from the angular displacement.
+---@field public bLinearBreakable boolean @Whether it is possible to break the joint with linear force.
+---@field public bLinearPlasticity boolean @Whether it is possible to reset spring rest length from the linear deformation.
+local FConstraintProfileProperties = {}

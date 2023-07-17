@@ -1,0 +1,22 @@
+---Defines the controller hands for tracking.  Could be expanded, as needed, to facilitate non-handheld controllers
+---@class EControllerHand
+---@field public Left integer
+---@field public Right integer
+---@field public AnyHand integer
+---@field public Pad integer
+---@field public ExternalCamera integer
+---@field public Gun integer
+---@field public Special_1 integer
+---@field public Special_2 integer
+---@field public Special_3 integer
+---@field public Special_4 integer
+---@field public Special_5 integer
+---@field public Special_6 integer
+---@field public Special_7 integer
+---@field public Special_8 integer
+---@field public Special_9 integer
+---@field public Special_10 integer
+---@field public Special_11 integer
+---@field public ControllerHand_Count integer
+---@field public EControllerHand_MAX integer
+local EControllerHand = {}

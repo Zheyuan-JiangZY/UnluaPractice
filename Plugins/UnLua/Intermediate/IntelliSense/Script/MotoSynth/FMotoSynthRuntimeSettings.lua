@@ -1,0 +1,24 @@
+---@class FMotoSynthRuntimeSettings
+---@field public bSynthToneEnabled boolean @If the synth tone is enabled
+---@field public SynthToneVolume number @The volume of the synth tone
+---@field public SynthToneFilterFrequency number @The filter frequency of the synth tone
+---@field public SynthOctaveShift integer @Octave shift of the synth
+---@field public bGranularEngineEnabled boolean @If the granular engine is enabled
+---@field public GranularEngineVolume number @The volume of the granular engine
+---@field public GranularEnginePitchScale number @The pitch scale of the granular engine
+---@field public NumSamplesToCrossfadeBetweenGrains integer @The volume of the granular engine
+---@field public NumGrainTableEntriesPerGrain integer @How many grain-table entries to use per runtime grain
+---@field public GrainTableRandomOffsetForConstantRPMs integer @Random grain table offset for cases where RPM is constant. Allows random shuffling of grains to avoid a robotic sound.
+---@field public GrainCrossfadeSamplesForConstantRPMs integer @Number of samples to cross fade grains when on a constant-RPM state. More crossfaded samples can reduce the robotic sound.
+---@field public AccelerationSource UMotoSynthSource @Motosynth source to use for granular engine acceleration
+---@field public DecelerationSource UMotoSynthSource @Motosynth source to use for granular engine deceleration
+---@field public bStereoWidenerEnabled boolean @If the stereo widener is enabled
+---@field public StereoDelayMsec number @If the stereo widener is enabled
+---@field public StereoFeedback number @Amount of feedback for stereo widener
+---@field public StereoWidenerWetlevel number @Wet level of stereo delay used for stereo widener
+---@field public StereoWidenerDryLevel number @Dry level of stereo delay used for stereo widener
+---@field public StereoWidenerDelayRatio number @Delay ratio of left/right channels for stereo widener effect
+---@field public bStereoWidenerFilterEnabled boolean @Delay ratio of left/right channels for stereo widener effect
+---@field public StereoWidenerFilterFrequency number @Delay ratio of left/right channels for stereo widener effect
+---@field public StereoWidenerFilterQ number @Delay ratio of left/right channels for stereo widener effect
+local FMotoSynthRuntimeSettings = {}

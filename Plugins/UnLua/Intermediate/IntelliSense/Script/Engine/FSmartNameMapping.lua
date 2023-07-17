@@ -1,0 +1,2 @@
+---@class FSmartNameMapping
+local FSmartNameMapping = {}

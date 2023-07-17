@@ -1,0 +1,2 @@
+---@class FToolMenuOwner
+local FToolMenuOwner = {}

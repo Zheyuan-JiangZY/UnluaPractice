@@ -1,0 +1,2 @@
+---@class FMagicLeapAudioDummyStruct
+local FMagicLeapAudioDummyStruct = {}

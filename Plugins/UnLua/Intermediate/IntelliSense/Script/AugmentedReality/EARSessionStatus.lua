@@ -1,0 +1,11 @@
+---Describes the current status of the AR session.
+---@class EARSessionStatus
+---@field public NotStarted integer
+---@field public Running integer
+---@field public NotSupported integer
+---@field public FatalError integer
+---@field public PermissionNotGranted integer
+---@field public UnsupportedConfiguration integer
+---@field public Other integer
+---@field public EARSessionStatus_MAX integer
+local EARSessionStatus = {}

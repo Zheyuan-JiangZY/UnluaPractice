@@ -1,0 +1,3 @@
+---@class UMagicLeapImageTargetReliableTrackingMulti__PythonCallable : UPythonCallableForDelegate
+local UMagicLeapImageTargetReliableTrackingMulti__PythonCallable = {}
+

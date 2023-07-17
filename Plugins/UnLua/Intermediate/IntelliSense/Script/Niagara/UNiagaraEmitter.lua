@@ -1,0 +1,53 @@
+---UNiagaraEmitter stores the attributes of an FNiagaraEmitterInstance
+---that need to be serialized and are used for its initialization
+---@class UNiagaraEmitter : UObject
+---@field public bLocalSpace boolean @Toggles whether or not the particles within this emitter are relative to the emitter origin or in global space.
+---@field public bDeterminism boolean @Toggles whether to globally make the random number generator be deterministic or non-deterministic. Any random calculation that is set to the emitter defaults will inherit this value. It is still possible to tweak individual random to be deterministic or not. In this case deterministic means that it will return the same results for the same configuration of the emitter as long as delta time is not variable. Any changes to the emitter's individual scripts will adjust the results.
+---@field public RandomSeed integer @An emitter-based seed for the deterministic random number generator.
+---@field public AllocationMode EParticleAllocationMode @The emitter needs to allocate memory for the particles each tick. To prevent reallocations, the emitter should allocate as much memory as is needed for the max particle count. This setting controls if the allocation size should be automatically determined or manually entered.
+---@field public PreAllocationCount integer @The emitter will allocate at least this many particles on it's first tick. This can aid performance by avoiding many allocations as an emitter ramps up to it's max size.
+---@field public UpdateScriptProps FNiagaraEmitterScriptProperties
+---@field public SpawnScriptProps FNiagaraEmitterScriptProperties
+---@field public EmitterSpawnScriptProps FNiagaraEmitterScriptProperties
+---@field public EmitterUpdateScriptProps FNiagaraEmitterScriptProperties
+---@field public AttributesToPreserve TArray<string> @A whitelist of Particle attributes (e.g. "Particle.Position" or "Particle.Age") that will not be removed from the DataSet  even if they aren't read by the VM.           Used in conjunction with UNiagaraSystem::bTrimAttributes
+---@field public SimTarget ENiagaraSimTarget
+---@field public FixedBounds FBox @The fixed bounding box value. bFixedBounds is the condition whether the fixed bounds can be edited.
+---@field public Platforms FNiagaraPlatformSet
+---@field public ScalabilityOverrides FNiagaraEmitterScalabilityOverrides
+---@field public bInterpolatedSpawning boolean @When enabled, this will spawn using interpolated parameter values and perform a partial update at spawn time. This adds significant additional cost for spawning but will produce much smoother spawning for high spawn rates, erratic frame rates and fast moving emitters.
+---@field public bFixedBounds boolean @Whether or not fixed bounds are enabled.
+---@field public bRequiresPersistentIDs boolean @Do particles in this emitter require a persistent ID?
+---@field public bCombineEventSpawn boolean @Performance option to allow event based spawning to be combined into a single spawn.  This will result in a single exec from 0 to number of particles rather than several, when using ExecIndex() it is recommended not to do this.
+---@field public MaxDeltaTimePerTick number @Limits the delta time per tick to prevent simulation spikes due to frame lags.
+---@field public DefaultShaderStageIndex integer @Get the default shader stage index.
+---@field public MaxUpdateIterations integer @Get the number of shader stages that we fire off.
+---@field public SpawnStages TSet<integer> @Get whether or not shaderstages spwn.
+---@field public bSimulationStagesEnabled boolean @Get whether or not to use simulation stages.
+---@field public bDeprecatedShaderStagesEnabled boolean @Get whether or not to use shader stages.
+---@field public bLimitDeltaTime boolean @Whether to limit the max tick delta time or not.
+---@field public GraphSource UNiagaraScriptSourceBase @'Source' data/graphs for the scripts used by this emitter.
+---@field public bBakeOutRapidIteration boolean @Should we enable rapid iteration removal if the system is also set to remove rapid iteration parameters on compile? This value defaults to true.
+---@field public ThumbnailImage UTexture2D @Internal: The thumbnail image.
+---@field public ThumbnailImageOutOfDate boolean @Internal: Indicates the thumbnail image is out of date.
+---@field public bExposeToLibrary boolean @If this emitter is exposed to the library.
+---@field public TemplateSpecification ENiagaraScriptTemplateSpecification
+---@field public TemplateAssetDescription string
+---@field public Category string @Category to collate this emitter into for "add new emitter" dialogs.
+---@field public ScratchPadScripts TArray<UNiagaraScript>
+---@field public ParentScratchPadScripts TArray<UNiagaraScript>
+---@field private ChangeId FGuid @Adjusted every time that we compile this emitter. Lets us know that we might differ from any cached versions.
+---@field private EditorData UNiagaraEditorDataBase @Data used by the editor to maintain UI state etc..
+---@field private EditorParameters UNiagaraEditorParametersAdapterBase @Wrapper for editor only parameters.
+---@field private UniqueEmitterName string
+---@field private RendererProperties TArray<UNiagaraRendererProperties>
+---@field private EventHandlerScriptProps TArray<FNiagaraEventScriptProperties>
+---@field private SimulationStages TArray<UNiagaraSimulationStageBase>
+---@field private GPUComputeScript UNiagaraScript
+---@field private SharedEventGeneratorIds TArray<string>
+---@field private Parent UNiagaraEmitter
+---@field private ParentAtLastMerge UNiagaraEmitter
+---@field private ParameterDefinitionsSubscriptions TArray<FParameterDefinitionsSubscription> @Subscriptions to definitions of parameters.
+---@field private MessageKeyToMessageMap TMap<FGuid, UNiagaraMessageDataBase> @Messages associated with the Emitter asset.
+local UNiagaraEmitter = {}
+

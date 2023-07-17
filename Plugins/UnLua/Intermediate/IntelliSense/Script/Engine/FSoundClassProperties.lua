@@ -1,0 +1,22 @@
+---@class FSoundClassProperties
+---@field public Volume number @Volume multiplier.
+---@field public Pitch number @Pitch multiplier.
+---@field public LowPassFilterFrequency number @Lowpass filter cutoff frequency
+---@field public AttenuationDistanceScale number @Distance scale to apply to sounds that play with this sound class. Sounds will have their attenuation distance scaled by this amount. Allows adjusting attenuation settings dynamically.
+---@field public LFEBleed number @The amount of a sound to bleed to the LFE channel
+---@field public VoiceCenterChannelVolume number @The amount to send to center channel (does not propagate to child classes)
+---@field public RadioFilterVolume number @Volume of the radio filter effect.
+---@field public RadioFilterVolumeThreshold number @Volume at which the radio filter kicks in
+---@field public bApplyEffects boolean @Whether to use 'Master EQ Submix' as set in the 'Audio' category of Project Settings as the default submix for referencing sounds.
+---@field public bAlwaysPlay boolean @Whether to inflate referencing sound's priority to always play.
+---@field public bIsUISound boolean @Whether or not this sound plays when the game is paused in the UI
+---@field public bIsMusic boolean @Whether or not this is music (propagates to child classes only if parent is true)
+---@field public bCenterChannelOnly boolean @Whether or not this sound class forces sounds to the center channel
+---@field public bApplyAmbientVolumes boolean @Whether the Interior/Exterior volume and LPF modifiers should be applied
+---@field public bReverb boolean @Whether or not sounds referencing this class send to the reverb submix
+---@field public Default2DReverbSendAmount number @Send amount to master reverb effect for referencing unattenuated (2D) sounds.
+---@field public ModulationSettings FSoundModulationDefaultSettings @Default modulation settings for sounds directly referencing this class
+---@field public OutputTarget integer @Which output target the sound should be played through
+---@field public LoadingBehavior ESoundWaveLoadingBehavior @Specifies how and when compressed audio data is loaded for asset if stream caching is enabled.
+---@field public DefaultSubmix USoundSubmix @Default output submix of referencing sounds. If unset, falls back to the 'Master Submix' as set in the 'Audio' category of Project Settings. (Unavailable if legacy 'Output to Master EQ Submix' is set)
+local FSoundClassProperties = {}

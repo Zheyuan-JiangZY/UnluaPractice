@@ -1,0 +1,12 @@
+---Texture painting settings structure
+---@class FTexturePaintSettings
+---@field public PaintColor FLinearColor @Color used for Applying Texture Painting
+---@field public EraseColor FLinearColor @Color used for Erasing Texture Painting
+---@field public bWriteRed boolean @Whether or not to apply Vertex Color Painting to the Red Channel
+---@field public bWriteGreen boolean @Whether or not to apply Vertex Color Painting to the Green Channel
+---@field public bWriteBlue boolean @Whether or not to apply Vertex Color Painting to the Blue Channel
+---@field public bWriteAlpha boolean @Whether or not to apply Vertex Color Painting to the Alpha Channel
+---@field public UVChannel integer @UV channel which should be used for paint textures
+---@field public bEnableSeamPainting boolean @Seam painting flag, True if we should enable dilation to allow the painting of texture seams
+---@field public PaintTexture UTexture2D @Texture to which Painting should be Applied
+local FTexturePaintSettings = {}

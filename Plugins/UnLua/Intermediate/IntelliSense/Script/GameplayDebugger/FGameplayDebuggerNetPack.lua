@@ -1,0 +1,2 @@
+---@class FGameplayDebuggerNetPack
+local FGameplayDebuggerNetPack = {}

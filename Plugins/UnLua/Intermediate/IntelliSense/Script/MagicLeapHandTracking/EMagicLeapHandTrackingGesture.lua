@@ -1,0 +1,15 @@
+---! Static key pose types which are available when both hands are separated.
+---@class EMagicLeapHandTrackingGesture
+---@field public Finger integer
+---@field public Fist integer
+---@field public Pinch integer
+---@field public Thumb integer
+---@field public L integer
+---@field public OpenHand integer
+---@field public OpenHandBack integer
+---@field public Ok integer
+---@field public C integer
+---@field public NoPose integer
+---@field public NoHand integer
+---@field public EMagicLeapHandTrackingGesture_MAX integer
+local EMagicLeapHandTrackingGesture = {}

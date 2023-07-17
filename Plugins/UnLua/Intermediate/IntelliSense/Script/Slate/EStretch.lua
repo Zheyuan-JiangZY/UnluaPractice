@@ -1,0 +1,11 @@
+---@class EStretch
+---@field public None integer
+---@field public Fill integer
+---@field public ScaleToFit integer
+---@field public ScaleToFitX integer
+---@field public ScaleToFitY integer
+---@field public ScaleToFill integer
+---@field public ScaleBySafeZone integer
+---@field public UserSpecified integer
+---@field public EStretch_MAX integer
+local EStretch = {}

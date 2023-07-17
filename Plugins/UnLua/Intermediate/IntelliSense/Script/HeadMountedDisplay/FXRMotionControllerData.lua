@@ -1,0 +1,16 @@
+---@class FXRMotionControllerData
+---@field public bValid boolean
+---@field public DeviceName string
+---@field public ApplicationInstanceID FGuid
+---@field public DeviceVisualType EXRVisualType
+---@field public HandIndex EControllerHand
+---@field public TrackingStatus ETrackingStatus
+---@field public GripPosition FVector
+---@field public GripRotation FQuat
+---@field public AimPosition FVector @for hand controllers, provides a more steady vector based on the elbow
+---@field public AimRotation FQuat
+---@field public HandKeyPositions TArray<FVector>
+---@field public HandKeyRotations TArray<FQuat>
+---@field public HandKeyRadii TArray<number>
+---@field public bIsGrasped boolean
+local FXRMotionControllerData = {}

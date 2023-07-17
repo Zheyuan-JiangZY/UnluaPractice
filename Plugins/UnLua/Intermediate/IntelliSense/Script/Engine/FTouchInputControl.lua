@@ -1,0 +1,11 @@
+---@class FTouchInputControl
+---@field public Image1 UTexture2D @For sticks, this is the Thumb
+---@field public Image2 UTexture2D @For sticks, this is the Background
+---@field public Center FVector2D @The center point of the control (if <= 1.0, it's relative to screen, > 1.0 is absolute)
+---@field public VisualSize FVector2D @The size of the control (if <= 1.0, it's relative to screen, > 1.0 is absolute)
+---@field public ThumbSize FVector2D @For sticks, the size of the thumb (if <= 1.0, it's relative to screen, > 1.0 is absolute)
+---@field public InteractionSize FVector2D @The interactive size of the control (if <= 1.0, it's relative to screen, > 1.0 is absolute)
+---@field public InputScale FVector2D @The scale for control input
+---@field public MainInputKey FKey @The main input to send from this control (for sticks, this is the horizontal axis)
+---@field public AltInputKey FKey @The alternate input to send from this control (for sticks, this is the vertical axis)
+local FTouchInputControl = {}

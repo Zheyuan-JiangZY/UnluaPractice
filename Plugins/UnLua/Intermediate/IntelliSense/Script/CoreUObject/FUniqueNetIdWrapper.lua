@@ -1,0 +1,2 @@
+---@class FUniqueNetIdWrapper
+local FUniqueNetIdWrapper = {}

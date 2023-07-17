@@ -1,0 +1,11 @@
+---The list of possible device/screen orientation for mobile devices
+---@class EScreenOrientation
+---@field public Unknown integer
+---@field public Portrait integer
+---@field public PortraitUpsideDown integer
+---@field public LandscapeLeft integer
+---@field public LandscapeRight integer
+---@field public FaceUp integer
+---@field public FaceDown integer
+---@field public EScreenOrientation_MAX integer
+local EScreenOrientation = {}

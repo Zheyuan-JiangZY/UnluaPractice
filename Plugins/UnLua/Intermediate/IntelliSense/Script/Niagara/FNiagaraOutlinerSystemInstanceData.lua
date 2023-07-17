@@ -1,0 +1,12 @@
+---Outliner information on a specific system instance.
+---@class FNiagaraOutlinerSystemInstanceData
+---@field public ComponentName string @Name of the component object for this instance, if there is one.
+---@field public Emitters TArray<FNiagaraOutlinerEmitterInstanceData>
+---@field public ActualExecutionState ENiagaraExecutionState
+---@field public RequestedExecutionState ENiagaraExecutionState
+---@field public ScalabilityState FNiagaraScalabilityState
+---@field public bPendingKill boolean
+---@field public PoolMethod ENCPoolMethod
+---@field public AverageTime FNiagaraOutlinerTimingData
+---@field public MaxTime FNiagaraOutlinerTimingData
+local FNiagaraOutlinerSystemInstanceData = {}

@@ -1,0 +1,11 @@
+---@class EMeshElementAttributeType
+---@field public None integer
+---@field public FVector4 integer
+---@field public FVector integer
+---@field public FVector2D integer
+---@field public Float integer
+---@field public Int integer
+---@field public Bool integer
+---@field public FName integer
+---@field public EMeshElementAttributeType_MAX integer
+local EMeshElementAttributeType = {}

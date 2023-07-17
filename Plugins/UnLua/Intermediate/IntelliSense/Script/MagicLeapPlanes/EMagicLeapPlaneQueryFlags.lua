@@ -1,0 +1,13 @@
+---Control flags for plane queries.
+---@class EMagicLeapPlaneQueryFlags
+---@field public Vertical integer
+---@field public Horizontal integer
+---@field public Arbitrary integer
+---@field public OrientToGravity integer
+---@field public PreferInner integer
+---@field public Ceiling integer
+---@field public Floor integer
+---@field public Wall integer
+---@field public Polygons integer
+---@field public EMagicLeapPlaneQueryFlags_MAX integer
+local EMagicLeapPlaneQueryFlags = {}

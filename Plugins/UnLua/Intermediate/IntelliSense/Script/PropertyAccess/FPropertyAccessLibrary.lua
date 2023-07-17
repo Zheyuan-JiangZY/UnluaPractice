@@ -1,0 +1,11 @@
+---A library of property paths used within a specific context (e.g. a class)
+---@class FPropertyAccessLibrary
+---@field private PathSegments TArray<FPropertyAccessSegment> @All path segments in this library.
+---@field private SrcPaths TArray<FPropertyAccessPath> @All source paths
+---@field private DestPaths TArray<FPropertyAccessPath> @All destination paths
+---@field private CopyBatches FPropertyAccessCopyBatch @All copy operations
+---@field private SrcAccesses TArray<FPropertyAccessIndirectionChain> @All source property accesses
+---@field private DestAccesses TArray<FPropertyAccessIndirectionChain> @All destination accesses (that are copied to our instances).
+---@field private Indirections TArray<FPropertyAccessIndirection> @Indirections
+---@field private EventAccessIndices TArray<integer> @Indexes into the SrcAccesses array to allow faster iteration of all event accesses
+local FPropertyAccessLibrary = {}

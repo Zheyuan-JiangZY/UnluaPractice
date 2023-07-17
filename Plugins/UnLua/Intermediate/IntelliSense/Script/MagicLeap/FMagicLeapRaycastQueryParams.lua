@@ -1,0 +1,11 @@
+---Parameters for a raycast request.
+---@class FMagicLeapRaycastQueryParams
+---@field public Position FVector @Where the ray is cast from.
+---@field public Direction FVector @Direction of the ray to fire.
+---@field public UpVector FVector @Up vector of the ray to fire. This is used to orient the area the rays are cast over.
+---@field public Width integer @The number of horizontal rays. For single point raycast, set this to 1.
+---@field public Height integer @The number of vertical rays. For single point raycast, set this to 1.
+---@field public HorizontalFovDegrees number @The angular width, in degrees, over which the horizonal rays are evenly distributed to create a raycast area.
+---@field public CollideWithUnobserved boolean @If true, a ray will terminate when encountering an unobserved area and return a surface or         the ray will continue until it ends or hits an observed surface.
+---@field public UserData integer @User data for this request. The same data will be included in the result for query identification.
+local FMagicLeapRaycastQueryParams = {}

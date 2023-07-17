@@ -1,0 +1,13 @@
+---Direction of touchpad gesture.
+---@class EMagicLeapTouchpadGestureDirection
+---@field public None integer
+---@field public Up integer
+---@field public Down integer
+---@field public Left integer
+---@field public Right integer
+---@field public In integer
+---@field public Out integer
+---@field public Clockwise integer
+---@field public CounterClockwise integer
+---@field public EMagicLeapTouchpadGestureDirection_MAX integer
+local EMagicLeapTouchpadGestureDirection = {}

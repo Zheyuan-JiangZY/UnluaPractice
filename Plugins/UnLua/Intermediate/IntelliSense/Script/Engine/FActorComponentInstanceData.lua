@@ -1,0 +1,11 @@
+---Base class for component instance cached data of a particular type.
+---@class FActorComponentInstanceData
+---@field protected SourceComponentTemplate UObject @The template used to create the source component
+---@field protected SourceComponentCreationMethod EComponentCreationMethod @The method that was used to create the source component
+---@field protected SourceComponentTypeSerializedIndex integer @The index of the source component in its owner's serialized array       when filtered to just that component type
+---@field protected SavedProperties TArray<integer>
+---@field protected UniqueTransientPackage FActorComponentDuplicatedObjectData @A unique outer created in the transient package to act as outer for this component's duplicated objects to avoid name conflicts of objects that already exist in the transient package
+---@field protected DuplicatedObjects TArray<FActorComponentDuplicatedObjectData> @Duplicated objects created when saving component instance properties
+---@field protected ReferencedObjects TArray<UObject> @Referenced objects in component instance saved properties
+---@field protected ReferencedNames TArray<string> @Referenced names in component instance saved properties
+local FActorComponentInstanceData = {}

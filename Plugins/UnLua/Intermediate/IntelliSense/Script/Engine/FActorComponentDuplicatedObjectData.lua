@@ -1,0 +1,2 @@
+---@class FActorComponentDuplicatedObjectData
+local FActorComponentDuplicatedObjectData = {}

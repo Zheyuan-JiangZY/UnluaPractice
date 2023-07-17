@@ -1,0 +1,35 @@
+---@class ANavigationTestingActor : AActor
+---@field private CapsuleComponent UCapsuleComponent
+---@field private EdRenderComp UNavTestRenderingComponent @Editor Preview
+---@field private InvokerComponent UNavigationInvokerComponent
+---@field private bActAsNavigationInvoker boolean
+---@field public NavAgentProps FNavAgentProperties @
+---@field public QueryingExtent FVector
+---@field public MyNavData ANavigationData
+---@field public ProjectedLocation FVector
+---@field public bProjectedLocationValid boolean
+---@field public bSearchStart boolean @if set, start the search from this actor, else start the search from the other actor
+---@field public CostLimitFactor number @this multiplier is used to compute a max node cost allowed to the open list     (cost limit = CostLimitFacotr*InitialHeuristicEstimate)
+---@field public MinimumCostLimit number @minimum cost limit clamping value (in cost units)     used to allow large deviation in short paths
+---@field public bBacktracking boolean @Instead of regular pathfinding from source to target location do     a 'backwards' search that searches from the source, but as if the allowed     movement direction was coming from the target. Meaningful only for paths     containing one-direction nav links.
+---@field public bUseHierarchicalPathfinding boolean
+---@field public bGatherDetailedInfo boolean @if set, all steps of A* algorithm will be accessible for debugging
+---@field public bDrawDistanceToWall boolean
+---@field public bShowNodePool boolean @show polys from open (orange) and closed (yellow) sets
+---@field public bShowBestPath boolean @show current best path
+---@field public bShowDiffWithPreviousStep boolean @show which nodes were modified in current A* step
+---@field public bShouldBeVisibleInGame boolean
+---@field public CostDisplayMode integer @determines which cost will be shown
+---@field public TextCanvasOffset FVector2D @text canvas offset to apply
+---@field public bPathExist boolean
+---@field public bPathIsPartial boolean
+---@field public bPathSearchOutOfNodes boolean
+---@field public PathfindingTime number @Time in micro seconds
+---@field public PathCost number
+---@field public PathfindingSteps integer
+---@field public OtherActor ANavigationTestingActor
+---@field public FilterClass TSubclassOf<UNavigationQueryFilter> @"None" will result in default filter being used
+---@field public ShowStepIndex integer
+---@field public OffsetFromCornersDistance number
+local ANavigationTestingActor = {}
+

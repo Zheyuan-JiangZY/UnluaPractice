@@ -1,0 +1,15 @@
+---@class ChaosDestructionListenerActor_C : AActor
+---@field public UberGraphFrame FPointerToUberGraphFrame
+---@field public ChaosDestructionListener UChaosDestructionListener
+---@field public DefaultSceneRoot USceneComponent
+local ChaosDestructionListenerActor_C = {}
+
+---@param CollisionEvents TArray_FChaosCollisionEventData_
+function ChaosDestructionListenerActor_C:BndEvt__ChaosDestructionListener_K2Node_ComponentBoundEvent_0_OnChaosCollisionEvents__DelegateSignature(CollisionEvents) end
+
+---@param BreakingEvents TArray_FChaosBreakingEventData_
+function ChaosDestructionListenerActor_C:BndEvt__ChaosDestructionListener_K2Node_ComponentBoundEvent_1_OnChaosBreakingEvents__DelegateSignature(BreakingEvents) end
+
+---@param TrailingEvents TArray_FChaosTrailingEventData_
+function ChaosDestructionListenerActor_C:BndEvt__ChaosDestructionListener_K2Node_ComponentBoundEvent_2_OnChaosTrailingEvents__DelegateSignature(TrailingEvents) end
+

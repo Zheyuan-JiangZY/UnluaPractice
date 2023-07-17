@@ -1,0 +1,13 @@
+---@class FTrackedCamera
+---@field public Index integer @>=0: the index of the external camera -1: not bind to any external camera (and would be setup to match the manual CastingCameraActor placement)
+---@field public Name string @The external camera name set through the CameraTool
+---@field public UpdateTime number @The time that this camera was updated
+---@field public FieldOfView number @The horizontal FOV, in degrees
+---@field public SizeX integer @The resolution of the camera frame
+---@field public SizeY integer @The resolution of the camera frame
+---@field public AttachedTrackedDevice ETrackedDeviceType @The tracking node the external camera is bound to
+---@field public CalibratedRotation FRotator @The relative pose of the camera to the attached tracking device
+---@field public CalibratedOffset FVector @The relative pose of the camera to the attached tracking device
+---@field public UserRotation FRotator @(optional) The user pose is provided to fine tuning the relative camera pose at the run-time
+---@field public UserOffset FVector @(optional) The user pose is provided to fine tuning the relative camera pose at the run-time
+local FTrackedCamera = {}
