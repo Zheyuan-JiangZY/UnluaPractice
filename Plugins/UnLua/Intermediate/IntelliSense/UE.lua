@@ -8303,225 +8303,6 @@ UE = {
     ---@type UVisualLoggerExtension
     UVisualLoggerExtension = nil,
 
-    ---@type UChaosClothConfig
-    UChaosClothConfig = nil,
-
-    ---@type UChaosClothSharedSimConfig
-    UChaosClothSharedSimConfig = nil,
-
-    ---@type UChaosClothingSimulationFactory
-    UChaosClothingSimulationFactory = nil,
-
-    ---@type UChaosClothingInteractor
-    UChaosClothingInteractor = nil,
-
-    ---@type UChaosClothingSimulationInteractor
-    UChaosClothingSimulationInteractor = nil,
-
-    ---@type UMagicLeapPrivilegesFunctionLibrary
-    UMagicLeapPrivilegesFunctionLibrary = nil,
-
-    ---@type UInAppPurchaseComponent
-    UInAppPurchaseComponent = nil,
-
-    ---@type ULuminApplicationLifecycleComponent
-    ULuminApplicationLifecycleComponent = nil,
-
-    ---@type UMagicLeapHeadTrackingNotificationsComponent
-    UMagicLeapHeadTrackingNotificationsComponent = nil,
-
-    ---@type UMagicLeapHMDFunctionLibrary
-    UMagicLeapHMDFunctionLibrary = nil,
-
-    ---@type UMagicLeapMeshTrackerComponent
-    UMagicLeapMeshTrackerComponent = nil,
-
-    ---@type UMagicLeapSettings
-    UMagicLeapSettings = nil,
-
-    ---@type UMagicLeapMeshBlockSelectorInterface
-    UMagicLeapMeshBlockSelectorInterface = nil,
-
-    ---@type UMagicLeapRaycastComponent
-    UMagicLeapRaycastComponent = nil,
-
-    ---@type UMagicLeapRaycastFunctionLibrary
-    UMagicLeapRaycastFunctionLibrary = nil,
-
-    ---@type UNiagaraMergeable
-    UNiagaraMergeable = nil,
-
-    ---@type UNiagaraDataInterfaceBase
-    UNiagaraDataInterfaceBase = nil,
-
-    ---@type UNiagaraScriptBase
-    UNiagaraScriptBase = nil,
-
-    ---@type UWmfMediaSettings
-    UWmfMediaSettings = nil,
-
-    ---@type UNamedInterfaces
-    UNamedInterfaces = nil,
-
-    ---@type UTurnBasedMatchInterface
-    UTurnBasedMatchInterface = nil,
-
-    ---@type UAchievementBlueprintLibrary
-    UAchievementBlueprintLibrary = nil,
-
-    ---@type UAchievementQueryCallbackProxy
-    UAchievementQueryCallbackProxy = nil,
-
-    ---@type UAchievementWriteCallbackProxy
-    UAchievementWriteCallbackProxy = nil,
-
-    ---@type UConnectionCallbackProxy
-    UConnectionCallbackProxy = nil,
-
-    ---@type UCreateSessionCallbackProxy
-    UCreateSessionCallbackProxy = nil,
-
-    ---@type UDestroySessionCallbackProxy
-    UDestroySessionCallbackProxy = nil,
-
-    ---@type UEndMatchCallbackProxy
-    UEndMatchCallbackProxy = nil,
-
-    ---@type UEndTurnCallbackProxy
-    UEndTurnCallbackProxy = nil,
-
-    ---@type UFindSessionsCallbackProxy
-    UFindSessionsCallbackProxy = nil,
-
-    ---@type UFindTurnBasedMatchCallbackProxy
-    UFindTurnBasedMatchCallbackProxy = nil,
-
-    ---@type UInAppPurchaseCallbackProxy
-    UInAppPurchaseCallbackProxy = nil,
-
-    ---@type UInAppPurchaseCallbackProxy2
-    UInAppPurchaseCallbackProxy2 = nil,
-
-    ---@type UInAppPurchaseQueryCallbackProxy
-    UInAppPurchaseQueryCallbackProxy = nil,
-
-    ---@type UInAppPurchaseQueryCallbackProxy2
-    UInAppPurchaseQueryCallbackProxy2 = nil,
-
-    ---@type UInAppPurchaseRestoreCallbackProxy
-    UInAppPurchaseRestoreCallbackProxy = nil,
-
-    ---@type UInAppPurchaseRestoreCallbackProxy2
-    UInAppPurchaseRestoreCallbackProxy2 = nil,
-
-    ---@type UIpConnection
-    UIpConnection = nil,
-
-    ---@type UIpNetDriver
-    UIpNetDriver = nil,
-
-    ---@type UJoinSessionCallbackProxy
-    UJoinSessionCallbackProxy = nil,
-
-    ---@type ULeaderboardBlueprintLibrary
-    ULeaderboardBlueprintLibrary = nil,
-
-    ---@type ULeaderboardFlushCallbackProxy
-    ULeaderboardFlushCallbackProxy = nil,
-
-    ---@type ULeaderboardQueryCallbackProxy
-    ULeaderboardQueryCallbackProxy = nil,
-
-    ---@type ULogoutCallbackProxy
-    ULogoutCallbackProxy = nil,
-
-    ---@type AOnlineBeacon
-    AOnlineBeacon = nil,
-
-    ---@type AOnlineBeaconClient
-    AOnlineBeaconClient = nil,
-
-    ---@type AOnlineBeaconHost
-    AOnlineBeaconHost = nil,
-
-    ---@type AOnlineBeaconHostObject
-    AOnlineBeaconHostObject = nil,
-
-    ---@type UOnlineEngineInterfaceImpl
-    UOnlineEngineInterfaceImpl = nil,
-
-    ---@type UOnlinePIESettings
-    UOnlinePIESettings = nil,
-
-    ---@type UOnlineSessionClient
-    UOnlineSessionClient = nil,
-
-    ---@type APartyBeaconClient
-    APartyBeaconClient = nil,
-
-    ---@type APartyBeaconHost
-    APartyBeaconHost = nil,
-
-    ---@type UPartyBeaconState
-    UPartyBeaconState = nil,
-
-    ---@type UQuitMatchCallbackProxy
-    UQuitMatchCallbackProxy = nil,
-
-    ---@type UShowLoginUICallbackProxy
-    UShowLoginUICallbackProxy = nil,
-
-    ---@type ASpectatorBeaconClient
-    ASpectatorBeaconClient = nil,
-
-    ---@type ASpectatorBeaconHost
-    ASpectatorBeaconHost = nil,
-
-    ---@type USpectatorBeaconState
-    USpectatorBeaconState = nil,
-
-    ---@type ATestBeaconClient
-    ATestBeaconClient = nil,
-
-    ---@type ATestBeaconHost
-    ATestBeaconHost = nil,
-
-    ---@type UTurnBasedBlueprintLibrary
-    UTurnBasedBlueprintLibrary = nil,
-
-    ---@type UVoipListenerSynthComponent
-    UVoipListenerSynthComponent = nil,
-
-    ---@type UK2Node_InAppPurchase
-    UK2Node_InAppPurchase = nil,
-
-    ---@type UK2Node_InAppPurchase2
-    UK2Node_InAppPurchase2 = nil,
-
-    ---@type UK2Node_InAppPurchaseQuery
-    UK2Node_InAppPurchaseQuery = nil,
-
-    ---@type UK2Node_InAppPurchaseQuery2
-    UK2Node_InAppPurchaseQuery2 = nil,
-
-    ---@type UK2Node_InAppPurchaseQueryOwned2
-    UK2Node_InAppPurchaseQueryOwned2 = nil,
-
-    ---@type UK2Node_InAppPurchaseRestore
-    UK2Node_InAppPurchaseRestore = nil,
-
-    ---@type UK2Node_InAppPurchaseRestore2
-    UK2Node_InAppPurchaseRestore2 = nil,
-
-    ---@type UK2Node_InAppPurchaseUnprocessed2
-    UK2Node_InAppPurchaseUnprocessed2 = nil,
-
-    ---@type UK2Node_LeaderboardFlush
-    UK2Node_LeaderboardFlush = nil,
-
-    ---@type UK2Node_LeaderboardQuery
-    UK2Node_LeaderboardQuery = nil,
-
     ---@type ULevelVariantSets
     ULevelVariantSets = nil,
 
@@ -8692,6 +8473,225 @@ UE = {
 
     ---@type UDatasmithStaticMeshTemplate
     UDatasmithStaticMeshTemplate = nil,
+
+    ---@type UNiagaraMergeable
+    UNiagaraMergeable = nil,
+
+    ---@type UNiagaraDataInterfaceBase
+    UNiagaraDataInterfaceBase = nil,
+
+    ---@type UNiagaraScriptBase
+    UNiagaraScriptBase = nil,
+
+    ---@type UChaosClothConfig
+    UChaosClothConfig = nil,
+
+    ---@type UChaosClothSharedSimConfig
+    UChaosClothSharedSimConfig = nil,
+
+    ---@type UChaosClothingSimulationFactory
+    UChaosClothingSimulationFactory = nil,
+
+    ---@type UChaosClothingInteractor
+    UChaosClothingInteractor = nil,
+
+    ---@type UChaosClothingSimulationInteractor
+    UChaosClothingSimulationInteractor = nil,
+
+    ---@type UMagicLeapPrivilegesFunctionLibrary
+    UMagicLeapPrivilegesFunctionLibrary = nil,
+
+    ---@type UInAppPurchaseComponent
+    UInAppPurchaseComponent = nil,
+
+    ---@type ULuminApplicationLifecycleComponent
+    ULuminApplicationLifecycleComponent = nil,
+
+    ---@type UMagicLeapHeadTrackingNotificationsComponent
+    UMagicLeapHeadTrackingNotificationsComponent = nil,
+
+    ---@type UMagicLeapHMDFunctionLibrary
+    UMagicLeapHMDFunctionLibrary = nil,
+
+    ---@type UMagicLeapMeshTrackerComponent
+    UMagicLeapMeshTrackerComponent = nil,
+
+    ---@type UMagicLeapSettings
+    UMagicLeapSettings = nil,
+
+    ---@type UMagicLeapMeshBlockSelectorInterface
+    UMagicLeapMeshBlockSelectorInterface = nil,
+
+    ---@type UMagicLeapRaycastComponent
+    UMagicLeapRaycastComponent = nil,
+
+    ---@type UMagicLeapRaycastFunctionLibrary
+    UMagicLeapRaycastFunctionLibrary = nil,
+
+    ---@type UWmfMediaSettings
+    UWmfMediaSettings = nil,
+
+    ---@type UNamedInterfaces
+    UNamedInterfaces = nil,
+
+    ---@type UTurnBasedMatchInterface
+    UTurnBasedMatchInterface = nil,
+
+    ---@type UAchievementBlueprintLibrary
+    UAchievementBlueprintLibrary = nil,
+
+    ---@type UAchievementQueryCallbackProxy
+    UAchievementQueryCallbackProxy = nil,
+
+    ---@type UAchievementWriteCallbackProxy
+    UAchievementWriteCallbackProxy = nil,
+
+    ---@type UConnectionCallbackProxy
+    UConnectionCallbackProxy = nil,
+
+    ---@type UCreateSessionCallbackProxy
+    UCreateSessionCallbackProxy = nil,
+
+    ---@type UDestroySessionCallbackProxy
+    UDestroySessionCallbackProxy = nil,
+
+    ---@type UEndMatchCallbackProxy
+    UEndMatchCallbackProxy = nil,
+
+    ---@type UEndTurnCallbackProxy
+    UEndTurnCallbackProxy = nil,
+
+    ---@type UFindSessionsCallbackProxy
+    UFindSessionsCallbackProxy = nil,
+
+    ---@type UFindTurnBasedMatchCallbackProxy
+    UFindTurnBasedMatchCallbackProxy = nil,
+
+    ---@type UInAppPurchaseCallbackProxy
+    UInAppPurchaseCallbackProxy = nil,
+
+    ---@type UInAppPurchaseCallbackProxy2
+    UInAppPurchaseCallbackProxy2 = nil,
+
+    ---@type UInAppPurchaseQueryCallbackProxy
+    UInAppPurchaseQueryCallbackProxy = nil,
+
+    ---@type UInAppPurchaseQueryCallbackProxy2
+    UInAppPurchaseQueryCallbackProxy2 = nil,
+
+    ---@type UInAppPurchaseRestoreCallbackProxy
+    UInAppPurchaseRestoreCallbackProxy = nil,
+
+    ---@type UInAppPurchaseRestoreCallbackProxy2
+    UInAppPurchaseRestoreCallbackProxy2 = nil,
+
+    ---@type UIpConnection
+    UIpConnection = nil,
+
+    ---@type UIpNetDriver
+    UIpNetDriver = nil,
+
+    ---@type UJoinSessionCallbackProxy
+    UJoinSessionCallbackProxy = nil,
+
+    ---@type ULeaderboardBlueprintLibrary
+    ULeaderboardBlueprintLibrary = nil,
+
+    ---@type ULeaderboardFlushCallbackProxy
+    ULeaderboardFlushCallbackProxy = nil,
+
+    ---@type ULeaderboardQueryCallbackProxy
+    ULeaderboardQueryCallbackProxy = nil,
+
+    ---@type ULogoutCallbackProxy
+    ULogoutCallbackProxy = nil,
+
+    ---@type AOnlineBeacon
+    AOnlineBeacon = nil,
+
+    ---@type AOnlineBeaconClient
+    AOnlineBeaconClient = nil,
+
+    ---@type AOnlineBeaconHost
+    AOnlineBeaconHost = nil,
+
+    ---@type AOnlineBeaconHostObject
+    AOnlineBeaconHostObject = nil,
+
+    ---@type UOnlineEngineInterfaceImpl
+    UOnlineEngineInterfaceImpl = nil,
+
+    ---@type UOnlinePIESettings
+    UOnlinePIESettings = nil,
+
+    ---@type UOnlineSessionClient
+    UOnlineSessionClient = nil,
+
+    ---@type APartyBeaconClient
+    APartyBeaconClient = nil,
+
+    ---@type APartyBeaconHost
+    APartyBeaconHost = nil,
+
+    ---@type UPartyBeaconState
+    UPartyBeaconState = nil,
+
+    ---@type UQuitMatchCallbackProxy
+    UQuitMatchCallbackProxy = nil,
+
+    ---@type UShowLoginUICallbackProxy
+    UShowLoginUICallbackProxy = nil,
+
+    ---@type ASpectatorBeaconClient
+    ASpectatorBeaconClient = nil,
+
+    ---@type ASpectatorBeaconHost
+    ASpectatorBeaconHost = nil,
+
+    ---@type USpectatorBeaconState
+    USpectatorBeaconState = nil,
+
+    ---@type ATestBeaconClient
+    ATestBeaconClient = nil,
+
+    ---@type ATestBeaconHost
+    ATestBeaconHost = nil,
+
+    ---@type UTurnBasedBlueprintLibrary
+    UTurnBasedBlueprintLibrary = nil,
+
+    ---@type UVoipListenerSynthComponent
+    UVoipListenerSynthComponent = nil,
+
+    ---@type UK2Node_InAppPurchase
+    UK2Node_InAppPurchase = nil,
+
+    ---@type UK2Node_InAppPurchase2
+    UK2Node_InAppPurchase2 = nil,
+
+    ---@type UK2Node_InAppPurchaseQuery
+    UK2Node_InAppPurchaseQuery = nil,
+
+    ---@type UK2Node_InAppPurchaseQuery2
+    UK2Node_InAppPurchaseQuery2 = nil,
+
+    ---@type UK2Node_InAppPurchaseQueryOwned2
+    UK2Node_InAppPurchaseQueryOwned2 = nil,
+
+    ---@type UK2Node_InAppPurchaseRestore
+    UK2Node_InAppPurchaseRestore = nil,
+
+    ---@type UK2Node_InAppPurchaseRestore2
+    UK2Node_InAppPurchaseRestore2 = nil,
+
+    ---@type UK2Node_InAppPurchaseUnprocessed2
+    UK2Node_InAppPurchaseUnprocessed2 = nil,
+
+    ---@type UK2Node_LeaderboardFlush
+    UK2Node_LeaderboardFlush = nil,
+
+    ---@type UK2Node_LeaderboardQuery
+    UK2Node_LeaderboardQuery = nil,
 
     ---@type UEyeTrackerFunctionLibrary
     UEyeTrackerFunctionLibrary = nil,
@@ -9248,147 +9248,6 @@ UE = {
     ---@type UWaveOscillatorCameraShakePattern
     UWaveOscillatorCameraShakePattern = nil,
 
-    ---@type UEdGraph_ReferenceViewer
-    UEdGraph_ReferenceViewer = nil,
-
-    ---@type UEdGraphNode_Reference
-    UEdGraphNode_Reference = nil,
-
-    ---@type UReferenceViewerSchema
-    UReferenceViewerSchema = nil,
-
-    ---@type UInternationalizationExportSettings
-    UInternationalizationExportSettings = nil,
-
-    ---@type UTranslationPickerSettings
-    UTranslationPickerSettings = nil,
-
-    ---@type UTranslationUnit
-    UTranslationUnit = nil,
-
-    ---@type UPixelInspectorView
-    UPixelInspectorView = nil,
-
-    ---@type UAudioCurveSourceComponent
-    UAudioCurveSourceComponent = nil,
-
-    ---@type UFacialAnimationBulkImporterSettings
-    UFacialAnimationBulkImporterSettings = nil,
-
-    ---@type UEditorUtilityObject
-    UEditorUtilityObject = nil,
-
-    ---@type UActorActionUtility
-    UActorActionUtility = nil,
-
-    ---@type UAssetActionUtility
-    UAssetActionUtility = nil,
-
-    ---@type UEditorUtilityExtension
-    UEditorUtilityExtension = nil,
-
-    ---@type AEditorUtilityActor
-    AEditorUtilityActor = nil,
-
-    ---@type UEditorUtilityActorComponent
-    UEditorUtilityActorComponent = nil,
-
-    ---@type UEditorUtilityBlueprint
-    UEditorUtilityBlueprint = nil,
-
-    ---@type UEditorUtilityBlueprintFactory
-    UEditorUtilityBlueprintFactory = nil,
-
-    ---@type AEditorUtilityCamera
-    AEditorUtilityCamera = nil,
-
-    ---@type UEditorUtilityBlueprintAsyncActionBase
-    UEditorUtilityBlueprintAsyncActionBase = nil,
-
-    ---@type UAsyncEditorDelay
-    UAsyncEditorDelay = nil,
-
-    ---@type UAsyncEditorWaitForGameWorld
-    UAsyncEditorWaitForGameWorld = nil,
-
-    ---@type UAsyncEditorOpenMapAndFocusActor
-    UAsyncEditorOpenMapAndFocusActor = nil,
-
-    ---@type UEditorUtilityLibrary
-    UEditorUtilityLibrary = nil,
-
-    ---@type UEditorUtilitySubsystem
-    UEditorUtilitySubsystem = nil,
-
-    ---@type UEditorUtilityTask
-    UEditorUtilityTask = nil,
-
-    ---@type UEditorUtilityToolMenuEntry
-    UEditorUtilityToolMenuEntry = nil,
-
-    ---@type UEditorUtilityToolMenuSection
-    UEditorUtilityToolMenuSection = nil,
-
-    ---@type UEditorUtilityWidget
-    UEditorUtilityWidget = nil,
-
-    ---@type UEditorUtilityWidgetBlueprint
-    UEditorUtilityWidgetBlueprint = nil,
-
-    ---@type UEditorUtilityWidgetBlueprintFactory
-    UEditorUtilityWidgetBlueprintFactory = nil,
-
-    ---@type UDEPRECATED_GlobalEditorUtilityBase
-    UDEPRECATED_GlobalEditorUtilityBase = nil,
-
-    ---@type ADEPRECATED_PlacedEditorUtilityBase
-    ADEPRECATED_PlacedEditorUtilityBase = nil,
-
-    ---@type UDataValidationCommandlet
-    UDataValidationCommandlet = nil,
-
-    ---@type UDEPRECATED_DataValidationManager
-    UDEPRECATED_DataValidationManager = nil,
-
-    ---@type UEditorValidatorBase
-    UEditorValidatorBase = nil,
-
-    ---@type UEditorValidator_Localization
-    UEditorValidator_Localization = nil,
-
-    ---@type UDataValidationSettings
-    UDataValidationSettings = nil,
-
-    ---@type UEditorValidatorSubsystem
-    UEditorValidatorSubsystem = nil,
-
-    ---@type UGameplayTagSearchFilter
-    UGameplayTagSearchFilter = nil,
-
-    ---@type UGameplayTagsK2Node_LiteralGameplayTag
-    UGameplayTagsK2Node_LiteralGameplayTag = nil,
-
-    ---@type UGameplayTagsK2Node_MultiCompareBase
-    UGameplayTagsK2Node_MultiCompareBase = nil,
-
-    ---@type UGameplayTagsK2Node_MultiCompareGameplayTagAssetInterface
-    UGameplayTagsK2Node_MultiCompareGameplayTagAssetInterface = nil,
-
-    ---@type UGameplayTagsK2Node_MultiCompareGameplayTagAssetInterfaceSingleTags
-    UGameplayTagsK2Node_MultiCompareGameplayTagAssetInterfaceSingleTags = nil,
-
-    ---@type UGameplayTagsK2Node_MultiCompareGameplayTagContainer
-    UGameplayTagsK2Node_MultiCompareGameplayTagContainer = nil,
-
-    ---@type UGameplayTagsK2Node_MultiCompareGameplayTagContainerSingleTags
-    UGameplayTagsK2Node_MultiCompareGameplayTagContainerSingleTags = nil,
-
-    ---@type UGameplayTagsK2Node_SwitchGameplayTag
-    UGameplayTagsK2Node_SwitchGameplayTag = nil,
-
-    ---@type UGameplayTagsK2Node_SwitchGameplayTagContainer
-    UGameplayTagsK2Node_SwitchGameplayTagContainer = nil,
-
     ---@type USignificanceManager
     USignificanceManager = nil,
 
@@ -9415,144 +9274,6 @@ UE = {
 
     ---@type UK2Node_PropertyAccess
     UK2Node_PropertyAccess = nil,
-
-    ---@type UMagicLeapPlanesComponent
-    UMagicLeapPlanesComponent = nil,
-
-    ---@type UMagicLeapPlanesFunctionLibrary
-    UMagicLeapPlanesFunctionLibrary = nil,
-
-    ---@type UMagicLeapLightingTrackingComponent
-    UMagicLeapLightingTrackingComponent = nil,
-
-    ---@type UMagicLeapLightEstimationFunctionLibrary
-    UMagicLeapLightEstimationFunctionLibrary = nil,
-
-    ---@type UMagicLeapARPinComponent
-    UMagicLeapARPinComponent = nil,
-
-    ---@type UMagicLeapARPinFunctionLibrary
-    UMagicLeapARPinFunctionLibrary = nil,
-
-    ---@type AMagicLeapARPinInfoActorBase
-    AMagicLeapARPinInfoActorBase = nil,
-
-    ---@type AMagicLeapARPinRenderer
-    AMagicLeapARPinRenderer = nil,
-
-    ---@type UMagicLeapARPinSettings
-    UMagicLeapARPinSettings = nil,
-
-    ---@type UMagicLeapARPinSaveGame
-    UMagicLeapARPinSaveGame = nil,
-
-    ---@type UMagicLeapARPinContentBindings
-    UMagicLeapARPinContentBindings = nil,
-
-    ---@type UMagicLeapImageTrackerComponent
-    UMagicLeapImageTrackerComponent = nil,
-
-    ---@type UMagicLeapImageTrackerFunctionLibrary
-    UMagicLeapImageTrackerFunctionLibrary = nil,
-
-    ---@type ULuminARSessionFunctionLibrary
-    ULuminARSessionFunctionLibrary = nil,
-
-    ---@type ULuminARFrameFunctionLibrary
-    ULuminARFrameFunctionLibrary = nil,
-
-    ---@type ULuminARImageTrackingFunctionLibrary
-    ULuminARImageTrackingFunctionLibrary = nil,
-
-    ---@type ALuminAROrigin
-    ALuminAROrigin = nil,
-
-    ---@type ULuminARSessionConfig
-    ULuminARSessionConfig = nil,
-
-    ---@type ULuminARLightEstimate
-    ULuminARLightEstimate = nil,
-
-    ---@type ULuminARCandidateImage
-    ULuminARCandidateImage = nil,
-
-    ---@type UMagicLeapControllerFunctionLibrary
-    UMagicLeapControllerFunctionLibrary = nil,
-
-    ---@type UMagicLeapTouchpadGesturesComponent
-    UMagicLeapTouchpadGesturesComponent = nil,
-
-    ---@type UMagicLeapEyeTrackerFunctionLibrary
-    UMagicLeapEyeTrackerFunctionLibrary = nil,
-
-    ---@type ULiveLinkMagicLeapHandTrackingSourceFactory
-    ULiveLinkMagicLeapHandTrackingSourceFactory = nil,
-
-    ---@type UMagicLeapHandTrackingFunctionLibrary
-    UMagicLeapHandTrackingFunctionLibrary = nil,
-
-    ---@type UMagicLeapIdentity
-    UMagicLeapIdentity = nil,
-
-    ---@type UMagicLeapSecureStorage
-    UMagicLeapSecureStorage = nil,
-
-    ---@type UMagicLeapHandMeshingComponent
-    UMagicLeapHandMeshingComponent = nil,
-
-    ---@type UMagicLeapHandMeshingFunctionLibrary
-    UMagicLeapHandMeshingFunctionLibrary = nil,
-
-    ---@type UContentBrowserFileDataSource
-    UContentBrowserFileDataSource = nil,
-
-    ---@type UK2Node_ExecutePythonScript
-    UK2Node_ExecutePythonScript = nil,
-
-    ---@type UPyTestStructLibrary
-    UPyTestStructLibrary = nil,
-
-    ---@type UPyTestObject
-    UPyTestObject = nil,
-
-    ---@type UPyTestChildObject
-    UPyTestChildObject = nil,
-
-    ---@type UDEPRECATED_LegacyPyTestObject
-    UDEPRECATED_LegacyPyTestObject = nil,
-
-    ---@type UPyTestObjectLibrary
-    UPyTestObjectLibrary = nil,
-
-    ---@type UPythonOnlineDocsCommandlet
-    UPythonOnlineDocsCommandlet = nil,
-
-    ---@type UPythonScriptCommandlet
-    UPythonScriptCommandlet = nil,
-
-    ---@type UPythonScriptLibrary
-    UPythonScriptLibrary = nil,
-
-    ---@type UPythonScriptPluginSettings
-    UPythonScriptPluginSettings = nil,
-
-    ---@type UPythonScriptPluginUserSettings
-    UPythonScriptPluginUserSettings = nil,
-
-    ---@type UPythonResourceOwner
-    UPythonResourceOwner = nil,
-
-    ---@type UPythonCallableForDelegate
-    UPythonCallableForDelegate = nil,
-
-    ---@type UPythonGeneratedEnum
-    UPythonGeneratedEnum = nil,
-
-    ---@type UPythonGeneratedClass
-    UPythonGeneratedClass = nil,
-
-    ---@type UPythonGeneratedStruct
-    UPythonGeneratedStruct = nil,
 
     ---@type UMovieSceneNiagaraTrack
     UMovieSceneNiagaraTrack = nil,
@@ -10226,14 +9947,290 @@ UE = {
     ---@type UAnimNotifyState_TimedNiagaraEffectAdvanced
     UAnimNotifyState_TimedNiagaraEffectAdvanced = nil,
 
-    ---@type UTcpMessagingSettings
-    UTcpMessagingSettings = nil,
+    ---@type UEdGraph_ReferenceViewer
+    UEdGraph_ReferenceViewer = nil,
 
-    ---@type UUdpMessagingSettings
-    UUdpMessagingSettings = nil,
+    ---@type UEdGraphNode_Reference
+    UEdGraphNode_Reference = nil,
+
+    ---@type UReferenceViewerSchema
+    UReferenceViewerSchema = nil,
+
+    ---@type UInternationalizationExportSettings
+    UInternationalizationExportSettings = nil,
+
+    ---@type UTranslationPickerSettings
+    UTranslationPickerSettings = nil,
+
+    ---@type UTranslationUnit
+    UTranslationUnit = nil,
+
+    ---@type UPixelInspectorView
+    UPixelInspectorView = nil,
+
+    ---@type UEditorUtilityObject
+    UEditorUtilityObject = nil,
+
+    ---@type UActorActionUtility
+    UActorActionUtility = nil,
+
+    ---@type UAssetActionUtility
+    UAssetActionUtility = nil,
+
+    ---@type UEditorUtilityExtension
+    UEditorUtilityExtension = nil,
+
+    ---@type AEditorUtilityActor
+    AEditorUtilityActor = nil,
+
+    ---@type UEditorUtilityActorComponent
+    UEditorUtilityActorComponent = nil,
+
+    ---@type UEditorUtilityBlueprint
+    UEditorUtilityBlueprint = nil,
+
+    ---@type UEditorUtilityBlueprintFactory
+    UEditorUtilityBlueprintFactory = nil,
+
+    ---@type AEditorUtilityCamera
+    AEditorUtilityCamera = nil,
+
+    ---@type UEditorUtilityBlueprintAsyncActionBase
+    UEditorUtilityBlueprintAsyncActionBase = nil,
+
+    ---@type UAsyncEditorDelay
+    UAsyncEditorDelay = nil,
+
+    ---@type UAsyncEditorWaitForGameWorld
+    UAsyncEditorWaitForGameWorld = nil,
+
+    ---@type UAsyncEditorOpenMapAndFocusActor
+    UAsyncEditorOpenMapAndFocusActor = nil,
+
+    ---@type UEditorUtilityLibrary
+    UEditorUtilityLibrary = nil,
+
+    ---@type UEditorUtilitySubsystem
+    UEditorUtilitySubsystem = nil,
+
+    ---@type UEditorUtilityTask
+    UEditorUtilityTask = nil,
+
+    ---@type UEditorUtilityToolMenuEntry
+    UEditorUtilityToolMenuEntry = nil,
+
+    ---@type UEditorUtilityToolMenuSection
+    UEditorUtilityToolMenuSection = nil,
+
+    ---@type UEditorUtilityWidget
+    UEditorUtilityWidget = nil,
+
+    ---@type UEditorUtilityWidgetBlueprint
+    UEditorUtilityWidgetBlueprint = nil,
+
+    ---@type UEditorUtilityWidgetBlueprintFactory
+    UEditorUtilityWidgetBlueprintFactory = nil,
+
+    ---@type UDEPRECATED_GlobalEditorUtilityBase
+    UDEPRECATED_GlobalEditorUtilityBase = nil,
+
+    ---@type ADEPRECATED_PlacedEditorUtilityBase
+    ADEPRECATED_PlacedEditorUtilityBase = nil,
+
+    ---@type UDataValidationCommandlet
+    UDataValidationCommandlet = nil,
+
+    ---@type UDEPRECATED_DataValidationManager
+    UDEPRECATED_DataValidationManager = nil,
+
+    ---@type UEditorValidatorBase
+    UEditorValidatorBase = nil,
+
+    ---@type UEditorValidator_Localization
+    UEditorValidator_Localization = nil,
+
+    ---@type UDataValidationSettings
+    UDataValidationSettings = nil,
+
+    ---@type UEditorValidatorSubsystem
+    UEditorValidatorSubsystem = nil,
+
+    ---@type UAudioCurveSourceComponent
+    UAudioCurveSourceComponent = nil,
+
+    ---@type UFacialAnimationBulkImporterSettings
+    UFacialAnimationBulkImporterSettings = nil,
+
+    ---@type UGameplayTagSearchFilter
+    UGameplayTagSearchFilter = nil,
+
+    ---@type UGameplayTagsK2Node_LiteralGameplayTag
+    UGameplayTagsK2Node_LiteralGameplayTag = nil,
+
+    ---@type UGameplayTagsK2Node_MultiCompareBase
+    UGameplayTagsK2Node_MultiCompareBase = nil,
+
+    ---@type UGameplayTagsK2Node_MultiCompareGameplayTagAssetInterface
+    UGameplayTagsK2Node_MultiCompareGameplayTagAssetInterface = nil,
+
+    ---@type UGameplayTagsK2Node_MultiCompareGameplayTagAssetInterfaceSingleTags
+    UGameplayTagsK2Node_MultiCompareGameplayTagAssetInterfaceSingleTags = nil,
+
+    ---@type UGameplayTagsK2Node_MultiCompareGameplayTagContainer
+    UGameplayTagsK2Node_MultiCompareGameplayTagContainer = nil,
+
+    ---@type UGameplayTagsK2Node_MultiCompareGameplayTagContainerSingleTags
+    UGameplayTagsK2Node_MultiCompareGameplayTagContainerSingleTags = nil,
+
+    ---@type UGameplayTagsK2Node_SwitchGameplayTag
+    UGameplayTagsK2Node_SwitchGameplayTag = nil,
+
+    ---@type UGameplayTagsK2Node_SwitchGameplayTagContainer
+    UGameplayTagsK2Node_SwitchGameplayTagContainer = nil,
+
+    ---@type UContentBrowserFileDataSource
+    UContentBrowserFileDataSource = nil,
+
+    ---@type UK2Node_ExecutePythonScript
+    UK2Node_ExecutePythonScript = nil,
+
+    ---@type UPyTestStructLibrary
+    UPyTestStructLibrary = nil,
+
+    ---@type UPyTestObject
+    UPyTestObject = nil,
+
+    ---@type UPyTestChildObject
+    UPyTestChildObject = nil,
+
+    ---@type UDEPRECATED_LegacyPyTestObject
+    UDEPRECATED_LegacyPyTestObject = nil,
+
+    ---@type UPyTestObjectLibrary
+    UPyTestObjectLibrary = nil,
+
+    ---@type UPythonOnlineDocsCommandlet
+    UPythonOnlineDocsCommandlet = nil,
+
+    ---@type UPythonScriptCommandlet
+    UPythonScriptCommandlet = nil,
+
+    ---@type UPythonScriptLibrary
+    UPythonScriptLibrary = nil,
+
+    ---@type UPythonScriptPluginSettings
+    UPythonScriptPluginSettings = nil,
+
+    ---@type UPythonScriptPluginUserSettings
+    UPythonScriptPluginUserSettings = nil,
+
+    ---@type UPythonResourceOwner
+    UPythonResourceOwner = nil,
+
+    ---@type UPythonCallableForDelegate
+    UPythonCallableForDelegate = nil,
+
+    ---@type UPythonGeneratedEnum
+    UPythonGeneratedEnum = nil,
+
+    ---@type UPythonGeneratedClass
+    UPythonGeneratedClass = nil,
+
+    ---@type UPythonGeneratedStruct
+    UPythonGeneratedStruct = nil,
 
     ---@type UImgMediaPlaybackComponent
     UImgMediaPlaybackComponent = nil,
+
+    ---@type UMagicLeapPlanesComponent
+    UMagicLeapPlanesComponent = nil,
+
+    ---@type UMagicLeapPlanesFunctionLibrary
+    UMagicLeapPlanesFunctionLibrary = nil,
+
+    ---@type UMagicLeapLightingTrackingComponent
+    UMagicLeapLightingTrackingComponent = nil,
+
+    ---@type UMagicLeapLightEstimationFunctionLibrary
+    UMagicLeapLightEstimationFunctionLibrary = nil,
+
+    ---@type UMagicLeapARPinComponent
+    UMagicLeapARPinComponent = nil,
+
+    ---@type UMagicLeapARPinFunctionLibrary
+    UMagicLeapARPinFunctionLibrary = nil,
+
+    ---@type AMagicLeapARPinInfoActorBase
+    AMagicLeapARPinInfoActorBase = nil,
+
+    ---@type AMagicLeapARPinRenderer
+    AMagicLeapARPinRenderer = nil,
+
+    ---@type UMagicLeapARPinSettings
+    UMagicLeapARPinSettings = nil,
+
+    ---@type UMagicLeapARPinSaveGame
+    UMagicLeapARPinSaveGame = nil,
+
+    ---@type UMagicLeapARPinContentBindings
+    UMagicLeapARPinContentBindings = nil,
+
+    ---@type UMagicLeapImageTrackerComponent
+    UMagicLeapImageTrackerComponent = nil,
+
+    ---@type UMagicLeapImageTrackerFunctionLibrary
+    UMagicLeapImageTrackerFunctionLibrary = nil,
+
+    ---@type ULuminARSessionFunctionLibrary
+    ULuminARSessionFunctionLibrary = nil,
+
+    ---@type ULuminARFrameFunctionLibrary
+    ULuminARFrameFunctionLibrary = nil,
+
+    ---@type ULuminARImageTrackingFunctionLibrary
+    ULuminARImageTrackingFunctionLibrary = nil,
+
+    ---@type ALuminAROrigin
+    ALuminAROrigin = nil,
+
+    ---@type ULuminARSessionConfig
+    ULuminARSessionConfig = nil,
+
+    ---@type ULuminARLightEstimate
+    ULuminARLightEstimate = nil,
+
+    ---@type ULuminARCandidateImage
+    ULuminARCandidateImage = nil,
+
+    ---@type UMagicLeapControllerFunctionLibrary
+    UMagicLeapControllerFunctionLibrary = nil,
+
+    ---@type UMagicLeapTouchpadGesturesComponent
+    UMagicLeapTouchpadGesturesComponent = nil,
+
+    ---@type UMagicLeapEyeTrackerFunctionLibrary
+    UMagicLeapEyeTrackerFunctionLibrary = nil,
+
+    ---@type ULiveLinkMagicLeapHandTrackingSourceFactory
+    ULiveLinkMagicLeapHandTrackingSourceFactory = nil,
+
+    ---@type UMagicLeapHandTrackingFunctionLibrary
+    UMagicLeapHandTrackingFunctionLibrary = nil,
+
+    ---@type UMagicLeapIdentity
+    UMagicLeapIdentity = nil,
+
+    ---@type UMagicLeapSecureStorage
+    UMagicLeapSecureStorage = nil,
+
+    ---@type UMagicLeapHandMeshingComponent
+    UMagicLeapHandMeshingComponent = nil,
+
+    ---@type UMagicLeapHandMeshingFunctionLibrary
+    UMagicLeapHandMeshingFunctionLibrary = nil,
+
+    ---@type UTcpMessagingSettings
+    UTcpMessagingSettings = nil,
 
     ---@type UActorSequence
     UActorSequence = nil,
@@ -10243,6 +10240,9 @@ UE = {
 
     ---@type UActorSequencePlayer
     UActorSequencePlayer = nil,
+
+    ---@type UUdpMessagingSettings
+    UUdpMessagingSettings = nil,
 
     ---@type UAudioAnalyzerAsset
     UAudioAnalyzerAsset = nil,
@@ -10283,9 +10283,6 @@ UE = {
     ---@type ULocationServicesImpl
     ULocationServicesImpl = nil,
 
-    ---@type UAmbisonicsEncodingSettings
-    UAmbisonicsEncodingSettings = nil,
-
     ---@type UWheeledVehicleMovementComponent
     UWheeledVehicleMovementComponent = nil,
 
@@ -10309,6 +10306,9 @@ UE = {
 
     ---@type UAnimGraphNode_WheelHandler
     UAnimGraphNode_WheelHandler = nil,
+
+    ---@type UAmbisonicsEncodingSettings
+    UAmbisonicsEncodingSettings = nil,
 
     ---@type UUnLuaEditorFunctionLibrary
     UUnLuaEditorFunctionLibrary = nil,
@@ -10697,8 +10697,26 @@ UE = {
     ---@type ULightPropagationVolumeBlendableFactory
     ULightPropagationVolumeBlendableFactory = nil,
 
+    ---@type UAnimationSharingSetupFactory
+    UAnimationSharingSetupFactory = nil,
+
     ---@type UOodleNetworkTrainerCommandlet
     UOodleNetworkTrainerCommandlet = nil,
+
+    ---@type UMyPluginObject
+    UMyPluginObject = nil,
+
+    ---@type ULevelVariantSetsActorFactory
+    ULevelVariantSetsActorFactory = nil,
+
+    ---@type USwitchActorFactory
+    USwitchActorFactory = nil,
+
+    ---@type UVariantManagerFactoryNew
+    UVariantManagerFactoryNew = nil,
+
+    ---@type AVariantManagerTestActor
+    AVariantManagerTestActor = nil,
 
     ---@type UCryptoKeysCommandlet
     UCryptoKeysCommandlet = nil,
@@ -10711,24 +10729,6 @@ UE = {
 
     ---@type UCurveEditorRetimeToolData
     UCurveEditorRetimeToolData = nil,
-
-    ---@type UNewPluginDescriptorData
-    UNewPluginDescriptorData = nil,
-
-    ---@type UPluginMetadataObject
-    UPluginMetadataObject = nil,
-
-    ---@type USpeedTreeImportFactory
-    USpeedTreeImportFactory = nil,
-
-    ---@type UReimportSpeedTreeFactory
-    UReimportSpeedTreeFactory = nil,
-
-    ---@type USpeedTreeImportData
-    USpeedTreeImportData = nil,
-
-    ---@type UAnimationSharingSetupFactory
-    UAnimationSharingSetupFactory = nil,
 
     ---@type UGeometryCache
     UGeometryCache = nil,
@@ -11072,32 +11072,32 @@ UE = {
     ---@type UOutlinerSettings
     UOutlinerSettings = nil,
 
-    ---@type UNiagaraDataInterfaceChaosDestruction
-    UNiagaraDataInterfaceChaosDestruction = nil,
-
-    ---@type UNiagaraDataInterfacePhysicsField
-    UNiagaraDataInterfacePhysicsField = nil,
-
     ---@type UActorFactoryChaosSolver
     UActorFactoryChaosSolver = nil,
 
     ---@type UChaosSolverFactory
     UChaosSolverFactory = nil,
 
-    ---@type UMyPluginObject
-    UMyPluginObject = nil,
+    ---@type UNiagaraDataInterfaceChaosDestruction
+    UNiagaraDataInterfaceChaosDestruction = nil,
 
-    ---@type UMagicLeapAudioFunctionLibrary
-    UMagicLeapAudioFunctionLibrary = nil,
+    ---@type UNiagaraDataInterfacePhysicsField
+    UNiagaraDataInterfacePhysicsField = nil,
 
-    ---@type AMagicLeapSharedWorldGameMode
-    AMagicLeapSharedWorldGameMode = nil,
+    ---@type UNewPluginDescriptorData
+    UNewPluginDescriptorData = nil,
 
-    ---@type AMagicLeapSharedWorldGameState
-    AMagicLeapSharedWorldGameState = nil,
+    ---@type UPluginMetadataObject
+    UPluginMetadataObject = nil,
 
-    ---@type AMagicLeapSharedWorldPlayerController
-    AMagicLeapSharedWorldPlayerController = nil,
+    ---@type USpeedTreeImportFactory
+    USpeedTreeImportFactory = nil,
+
+    ---@type UReimportSpeedTreeFactory
+    UReimportSpeedTreeFactory = nil,
+
+    ---@type USpeedTreeImportData
+    USpeedTreeImportData = nil,
 
     ---@type UMovieSceneGeometryCacheSection
     UMovieSceneGeometryCacheSection = nil,
@@ -11126,6 +11126,24 @@ UE = {
     ---@type UMotoSynthSourceFactory
     UMotoSynthSourceFactory = nil,
 
+    ---@type UImgMediaSettings
+    UImgMediaSettings = nil,
+
+    ---@type UImgMediaSource
+    UImgMediaSource = nil,
+
+    ---@type UMagicLeapAudioFunctionLibrary
+    UMagicLeapAudioFunctionLibrary = nil,
+
+    ---@type AMagicLeapSharedWorldGameMode
+    AMagicLeapSharedWorldGameMode = nil,
+
+    ---@type AMagicLeapSharedWorldGameState
+    AMagicLeapSharedWorldGameState = nil,
+
+    ---@type AMagicLeapSharedWorldPlayerController
+    AMagicLeapSharedWorldPlayerController = nil,
+
     ---@type UMovieSceneMediaPlayerPropertySection
     UMovieSceneMediaPlayerPropertySection = nil,
 
@@ -11138,26 +11156,11 @@ UE = {
     ---@type UMovieSceneMediaTrack
     UMovieSceneMediaTrack = nil,
 
-    ---@type UImgMediaSettings
-    UImgMediaSettings = nil,
+    ---@type UAndroidPermissionCallbackProxy
+    UAndroidPermissionCallbackProxy = nil,
 
-    ---@type UImgMediaSource
-    UImgMediaSource = nil,
-
-    ---@type ULevelVariantSetsActorFactory
-    ULevelVariantSetsActorFactory = nil,
-
-    ---@type USwitchActorFactory
-    USwitchActorFactory = nil,
-
-    ---@type UVariantManagerFactoryNew
-    UVariantManagerFactoryNew = nil,
-
-    ---@type AVariantManagerTestActor
-    AVariantManagerTestActor = nil,
-
-    ---@type ULayersBlueprintLibrary
-    ULayersBlueprintLibrary = nil,
+    ---@type UAndroidPermissionFunctionLibrary
+    UAndroidPermissionFunctionLibrary = nil,
 
     ---@type UAppleImageUtilsBaseAsyncTaskBlueprintProxy
     UAppleImageUtilsBaseAsyncTaskBlueprintProxy = nil,
@@ -11177,11 +11180,14 @@ UE = {
     ---@type UK2Node_ConvertToPNG
     UK2Node_ConvertToPNG = nil,
 
-    ---@type UAndroidPermissionCallbackProxy
-    UAndroidPermissionCallbackProxy = nil,
+    ---@type AArchVisCharacter
+    AArchVisCharacter = nil,
 
-    ---@type UAndroidPermissionFunctionLibrary
-    UAndroidPermissionFunctionLibrary = nil,
+    ---@type UArchVisCharMovementComponent
+    UArchVisCharMovementComponent = nil,
+
+    ---@type UAssetTagsSubsystem
+    UAssetTagsSubsystem = nil,
 
     ---@type ACableActor
     ACableActor = nil,
@@ -11189,8 +11195,20 @@ UE = {
     ---@type UCableComponent
     UCableComponent = nil,
 
+    ---@type ULayersBlueprintLibrary
+    ULayersBlueprintLibrary = nil,
+
     ---@type UCustomMeshComponent
     UCustomMeshComponent = nil,
+
+    ---@type UAudioCapture
+    UAudioCapture = nil,
+
+    ---@type UAudioCaptureFunctionLibrary
+    UAudioCaptureFunctionLibrary = nil,
+
+    ---@type UAudioCaptureComponent
+    UAudioCaptureComponent = nil,
 
     ---@type UEditableMeshAdapter
     UEditableMeshAdapter = nil,
@@ -11207,24 +11225,6 @@ UE = {
     ---@type UEditableStaticMeshAdapter
     UEditableStaticMeshAdapter = nil,
 
-    ---@type UAudioCapture
-    UAudioCapture = nil,
-
-    ---@type UAudioCaptureFunctionLibrary
-    UAudioCaptureFunctionLibrary = nil,
-
-    ---@type UAudioCaptureComponent
-    UAudioCaptureComponent = nil,
-
-    ---@type UGooglePADFunctionLibrary
-    UGooglePADFunctionLibrary = nil,
-
-    ---@type AArchVisCharacter
-    AArchVisCharacter = nil,
-
-    ---@type UArchVisCharMovementComponent
-    UArchVisCharMovementComponent = nil,
-
     ---@type UMobileInstalledContent
     UMobileInstalledContent = nil,
 
@@ -11234,8 +11234,8 @@ UE = {
     ---@type UMobilePatchingLibrary
     UMobilePatchingLibrary = nil,
 
-    ---@type UAssetTagsSubsystem
-    UAssetTagsSubsystem = nil,
+    ---@type UGooglePADFunctionLibrary
+    UGooglePADFunctionLibrary = nil,
 
     ---@type UModularSynthPresetBank
     UModularSynthPresetBank = nil,
@@ -11351,11 +11351,11 @@ UE = {
     ---@type USynthesisEditorSettings
     USynthesisEditorSettings = nil,
 
-    ---@type UContentBrowserClassDataSource
-    UContentBrowserClassDataSource = nil,
-
     ---@type UContentBrowserAssetDataSource
     UContentBrowserAssetDataSource = nil,
+
+    ---@type UContentBrowserClassDataSource
+    UContentBrowserClassDataSource = nil,
 
     ---@type AOculusMR_CastingCameraActor
     AOculusMR_CastingCameraActor = nil,
@@ -11600,9 +11600,6 @@ UE = {
     ---@type UGeomModifier_Weld
     UGeomModifier_Weld = nil,
 
-    ---@type UMagicLeapFileMediaSourceFactory
-    UMagicLeapFileMediaSourceFactory = nil,
-
     ---@type UAndroidFileMediaSourceFactory
     UAndroidFileMediaSourceFactory = nil,
 
@@ -11615,23 +11612,20 @@ UE = {
     ---@type UAvfMediaSettings
     UAvfMediaSettings = nil,
 
-    ---@type UWebMPlatFileMediaSourceFactory
-    UWebMPlatFileMediaSourceFactory = nil,
-
-    ---@type UWmfFileMediaSourceFactory
-    UWmfFileMediaSourceFactory = nil,
-
-    ---@type UMediaPlayerRecording
-    UMediaPlayerRecording = nil,
-
-    ---@type UMediaSequenceRecorderSettings
-    UMediaSequenceRecorderSettings = nil,
+    ---@type UMagicLeapFileMediaSourceFactory
+    UMagicLeapFileMediaSourceFactory = nil,
 
     ---@type UImgMediaSourceFactory
     UImgMediaSourceFactory = nil,
 
     ---@type UImgMediaSourceFactoryNew
     UImgMediaSourceFactoryNew = nil,
+
+    ---@type UMediaPlayerRecording
+    UMediaPlayerRecording = nil,
+
+    ---@type UMediaSequenceRecorderSettings
+    UMediaSequenceRecorderSettings = nil,
 
     ---@type UFileMediaSourceFactoryNew
     UFileMediaSourceFactoryNew = nil,
@@ -11656,6 +11650,12 @@ UE = {
 
     ---@type UStreamMediaSourceFactoryNew
     UStreamMediaSourceFactoryNew = nil,
+
+    ---@type UWmfFileMediaSourceFactory
+    UWmfFileMediaSourceFactory = nil,
+
+    ---@type UWebMPlatFileMediaSourceFactory
+    UWebMPlatFileMediaSourceFactory = nil,
 
     ---@type ULevelSequenceEditorBlueprintLibrary
     ULevelSequenceEditorBlueprintLibrary = nil,
@@ -16472,66 +16472,6 @@ UE = {
     ---@type FRecastGraphWrapper
     FRecastGraphWrapper = nil,
 
-    ---@type FChaosClothWeightedValue
-    FChaosClothWeightedValue = nil,
-
-    ---@type FMagicLeapGraphicsClientPerformanceInfo
-    FMagicLeapGraphicsClientPerformanceInfo = nil,
-
-    ---@type FMagicLeapHeadTrackingState
-    FMagicLeapHeadTrackingState = nil,
-
-    ---@type FMagicLeapResult
-    FMagicLeapResult = nil,
-
-    ---@type FNiagaraCompileHash
-    FNiagaraCompileHash = nil,
-
-    ---@type FSimulationStageMetaData
-    FSimulationStageMetaData = nil,
-
-    ---@type FNiagaraDataInterfaceGPUParamInfo
-    FNiagaraDataInterfaceGPUParamInfo = nil,
-
-    ---@type FNiagaraDataInterfaceGeneratedFunction
-    FNiagaraDataInterfaceGeneratedFunction = nil,
-
-    ---@type FNiagaraCompileEvent
-    FNiagaraCompileEvent = nil,
-
-    ---@type FNamedInterfaceDef
-    FNamedInterfaceDef = nil,
-
-    ---@type FNamedInterface
-    FNamedInterface = nil,
-
-    ---@type FInAppPurchaseProductRequest
-    FInAppPurchaseProductRequest = nil,
-
-    ---@type FInAppPurchaseReceiptInfo
-    FInAppPurchaseReceiptInfo = nil,
-
-    ---@type FInAppPurchaseProductInfo2
-    FInAppPurchaseProductInfo2 = nil,
-
-    ---@type FInAppPurchaseProductRequest2
-    FInAppPurchaseProductRequest2 = nil,
-
-    ---@type FPlayerReservation
-    FPlayerReservation = nil,
-
-    ---@type FPIELoginSettingsInternal
-    FPIELoginSettingsInternal = nil,
-
-    ---@type FPartyBeaconCrossplayPlatformMapping
-    FPartyBeaconCrossplayPlatformMapping = nil,
-
-    ---@type FPartyReservation
-    FPartyReservation = nil,
-
-    ---@type FSpectatorReservation
-    FSpectatorReservation = nil,
-
     ---@type FFunctionCaller
     FFunctionCaller = nil,
 
@@ -16588,6 +16528,66 @@ UE = {
 
     ---@type FDatasmithMeshBuildSettingsTemplate
     FDatasmithMeshBuildSettingsTemplate = nil,
+
+    ---@type FNiagaraCompileHash
+    FNiagaraCompileHash = nil,
+
+    ---@type FSimulationStageMetaData
+    FSimulationStageMetaData = nil,
+
+    ---@type FNiagaraDataInterfaceGPUParamInfo
+    FNiagaraDataInterfaceGPUParamInfo = nil,
+
+    ---@type FNiagaraDataInterfaceGeneratedFunction
+    FNiagaraDataInterfaceGeneratedFunction = nil,
+
+    ---@type FNiagaraCompileEvent
+    FNiagaraCompileEvent = nil,
+
+    ---@type FChaosClothWeightedValue
+    FChaosClothWeightedValue = nil,
+
+    ---@type FMagicLeapGraphicsClientPerformanceInfo
+    FMagicLeapGraphicsClientPerformanceInfo = nil,
+
+    ---@type FMagicLeapHeadTrackingState
+    FMagicLeapHeadTrackingState = nil,
+
+    ---@type FMagicLeapResult
+    FMagicLeapResult = nil,
+
+    ---@type FNamedInterfaceDef
+    FNamedInterfaceDef = nil,
+
+    ---@type FNamedInterface
+    FNamedInterface = nil,
+
+    ---@type FInAppPurchaseProductRequest
+    FInAppPurchaseProductRequest = nil,
+
+    ---@type FInAppPurchaseReceiptInfo
+    FInAppPurchaseReceiptInfo = nil,
+
+    ---@type FInAppPurchaseProductInfo2
+    FInAppPurchaseProductInfo2 = nil,
+
+    ---@type FInAppPurchaseProductRequest2
+    FInAppPurchaseProductRequest2 = nil,
+
+    ---@type FPlayerReservation
+    FPlayerReservation = nil,
+
+    ---@type FPIELoginSettingsInternal
+    FPIELoginSettingsInternal = nil,
+
+    ---@type FPartyBeaconCrossplayPlatformMapping
+    FPartyBeaconCrossplayPlatformMapping = nil,
+
+    ---@type FPartyReservation
+    FPartyReservation = nil,
+
+    ---@type FSpectatorReservation
+    FSpectatorReservation = nil,
 
     ---@type FEyeTrackerStereoGazeData
     FEyeTrackerStereoGazeData = nil,
@@ -16919,12 +16919,6 @@ UE = {
     ---@type FWaveOscillator
     FWaveOscillator = nil,
 
-    ---@type FTranslationContextInfo
-    FTranslationContextInfo = nil,
-
-    ---@type FTranslationChange
-    FTranslationChange = nil,
-
     ---@type FTickAnimationSharingFunction
     FTickAnimationSharingFunction = nil,
 
@@ -16939,69 +16933,6 @@ UE = {
 
     ---@type FAnimationSetup
     FAnimationSetup = nil,
-
-    ---@type FMagicLeapPlaneBoundaries
-    FMagicLeapPlaneBoundaries = nil,
-
-    ---@type FMagicLeapPlaneBoundary
-    FMagicLeapPlaneBoundary = nil,
-
-    ---@type FMagicLeapPolygon
-    FMagicLeapPolygon = nil,
-
-    ---@type FMagicLeapPlaneResult
-    FMagicLeapPlaneResult = nil,
-
-    ---@type FMagicLeapARPinState
-    FMagicLeapARPinState = nil,
-
-    ---@type FMagicLeapPlanesQuery
-    FMagicLeapPlanesQuery = nil,
-
-    ---@type FMagicLeapLightEstimationColorTemperatureState
-    FMagicLeapLightEstimationColorTemperatureState = nil,
-
-    ---@type FMagicLeapLightEstimationAmbientGlobalState
-    FMagicLeapLightEstimationAmbientGlobalState = nil,
-
-    ---@type FMagicLeapARPinQuery
-    FMagicLeapARPinQuery = nil,
-
-    ---@type FMagicLeapARPinObjectIdList
-    FMagicLeapARPinObjectIdList = nil,
-
-    ---@type FMagicLeapImageTargetState
-    FMagicLeapImageTargetState = nil,
-
-    ---@type FMagicLeapImageTargetSettings
-    FMagicLeapImageTargetSettings = nil,
-
-    ---@type FMagicLeapTouchpadGesture
-    FMagicLeapTouchpadGesture = nil,
-
-    ---@type FMagicLeapEyeBlinkState
-    FMagicLeapEyeBlinkState = nil,
-
-    ---@type FMagicLeapIdentityAttribute
-    FMagicLeapIdentityAttribute = nil,
-
-    ---@type FMagicLeapHandMesh
-    FMagicLeapHandMesh = nil,
-
-    ---@type FMagicLeapHandMeshBlock
-    FMagicLeapHandMeshBlock = nil,
-
-    ---@type FContentBrowserCompiledFileDataFilter
-    FContentBrowserCompiledFileDataFilter = nil,
-
-    ---@type FPyTestStruct
-    FPyTestStruct = nil,
-
-    ---@type FPyTestChildStruct
-    FPyTestChildStruct = nil,
-
-    ---@type FPythonLogOutputEntry
-    FPythonLogOutputEntry = nil,
 
     ---@type FMovieSceneNiagaraParameterSectionTemplate
     FMovieSceneNiagaraParameterSectionTemplate = nil,
@@ -17504,6 +17435,75 @@ UE = {
     ---@type FNiagaraStackAssetAction_VarBind
     FNiagaraStackAssetAction_VarBind = nil,
 
+    ---@type FTranslationContextInfo
+    FTranslationContextInfo = nil,
+
+    ---@type FTranslationChange
+    FTranslationChange = nil,
+
+    ---@type FContentBrowserCompiledFileDataFilter
+    FContentBrowserCompiledFileDataFilter = nil,
+
+    ---@type FPyTestStruct
+    FPyTestStruct = nil,
+
+    ---@type FPyTestChildStruct
+    FPyTestChildStruct = nil,
+
+    ---@type FPythonLogOutputEntry
+    FPythonLogOutputEntry = nil,
+
+    ---@type FMagicLeapPlaneBoundaries
+    FMagicLeapPlaneBoundaries = nil,
+
+    ---@type FMagicLeapPlaneBoundary
+    FMagicLeapPlaneBoundary = nil,
+
+    ---@type FMagicLeapPolygon
+    FMagicLeapPolygon = nil,
+
+    ---@type FMagicLeapPlaneResult
+    FMagicLeapPlaneResult = nil,
+
+    ---@type FMagicLeapARPinState
+    FMagicLeapARPinState = nil,
+
+    ---@type FMagicLeapPlanesQuery
+    FMagicLeapPlanesQuery = nil,
+
+    ---@type FMagicLeapLightEstimationColorTemperatureState
+    FMagicLeapLightEstimationColorTemperatureState = nil,
+
+    ---@type FMagicLeapLightEstimationAmbientGlobalState
+    FMagicLeapLightEstimationAmbientGlobalState = nil,
+
+    ---@type FMagicLeapARPinQuery
+    FMagicLeapARPinQuery = nil,
+
+    ---@type FMagicLeapARPinObjectIdList
+    FMagicLeapARPinObjectIdList = nil,
+
+    ---@type FMagicLeapImageTargetState
+    FMagicLeapImageTargetState = nil,
+
+    ---@type FMagicLeapImageTargetSettings
+    FMagicLeapImageTargetSettings = nil,
+
+    ---@type FMagicLeapTouchpadGesture
+    FMagicLeapTouchpadGesture = nil,
+
+    ---@type FMagicLeapEyeBlinkState
+    FMagicLeapEyeBlinkState = nil,
+
+    ---@type FMagicLeapIdentityAttribute
+    FMagicLeapIdentityAttribute = nil,
+
+    ---@type FMagicLeapHandMesh
+    FMagicLeapHandMesh = nil,
+
+    ---@type FMagicLeapHandMeshBlock
+    FMagicLeapHandMeshBlock = nil,
+
     ---@type FStructSerializerTestStruct
     FStructSerializerTestStruct = nil,
 
@@ -17531,9 +17531,6 @@ UE = {
     ---@type FStructSerializerByteArray
     FStructSerializerByteArray = nil,
 
-    ---@type FUdpMockMessage
-    FUdpMockMessage = nil,
-
     ---@type FActorSequenceObjectReferenceMap
     FActorSequenceObjectReferenceMap = nil,
 
@@ -17542,6 +17539,9 @@ UE = {
 
     ---@type FActorSequenceObjectReference
     FActorSequenceObjectReference = nil,
+
+    ---@type FUdpMockMessage
+    FUdpMockMessage = nil,
 
     ---@type FLocationServicesData
     FLocationServicesData = nil,
@@ -17648,6 +17648,9 @@ UE = {
     ---@type FLiveLinkSubjectProperty
     FLiveLinkSubjectProperty = nil,
 
+    ---@type FMyPluginStruct
+    FMyPluginStruct = nil,
+
     ---@type FCryptoEncryptionKey
     FCryptoEncryptionKey = nil,
 
@@ -17659,9 +17662,6 @@ UE = {
 
     ---@type FTransformToolOptions
     FTransformToolOptions = nil,
-
-    ---@type FPluginReferenceMetadata
-    FPluginReferenceMetadata = nil,
 
     ---@type FTrackRenderData
     FTrackRenderData = nil,
@@ -17753,23 +17753,8 @@ UE = {
     ---@type FChaosDestructionEvent
     FChaosDestructionEvent = nil,
 
-    ---@type FMyPluginStruct
-    FMyPluginStruct = nil,
-
-    ---@type FMagicLeapAudioDummyStruct
-    FMagicLeapAudioDummyStruct = nil,
-
-    ---@type FMagicLeapSharedWorldSharedData
-    FMagicLeapSharedWorldSharedData = nil,
-
-    ---@type FMagicLeapSharedWorldAlignmentTransforms
-    FMagicLeapSharedWorldAlignmentTransforms = nil,
-
-    ---@type FMagicLeapSharedWorldLocalData
-    FMagicLeapSharedWorldLocalData = nil,
-
-    ---@type FMagicLeapSharedWorldPinData
-    FMagicLeapSharedWorldPinData = nil,
+    ---@type FPluginReferenceMetadata
+    FPluginReferenceMetadata = nil,
 
     ---@type FMovieSceneGeometryCacheParams
     FMovieSceneGeometryCacheParams = nil,
@@ -17795,6 +17780,21 @@ UE = {
     ---@type FGrainTableEntry
     FGrainTableEntry = nil,
 
+    ---@type FMagicLeapAudioDummyStruct
+    FMagicLeapAudioDummyStruct = nil,
+
+    ---@type FMagicLeapSharedWorldSharedData
+    FMagicLeapSharedWorldSharedData = nil,
+
+    ---@type FMagicLeapSharedWorldAlignmentTransforms
+    FMagicLeapSharedWorldAlignmentTransforms = nil,
+
+    ---@type FMagicLeapSharedWorldLocalData
+    FMagicLeapSharedWorldLocalData = nil,
+
+    ---@type FMagicLeapSharedWorldPinData
+    FMagicLeapSharedWorldPinData = nil,
+
     ---@type FMovieSceneMediaPlayerPropertySectionTemplate
     FMovieSceneMediaPlayerPropertySectionTemplate = nil,
 
@@ -17804,14 +17804,17 @@ UE = {
     ---@type FMovieSceneMediaSectionParams
     FMovieSceneMediaSectionParams = nil,
 
-    ---@type FActorLayer
-    FActorLayer = nil,
-
     ---@type FAppleImageUtilsImageConversionResult
     FAppleImageUtilsImageConversionResult = nil,
 
+    ---@type FActorLayer
+    FActorLayer = nil,
+
     ---@type FCustomMeshTriangle
     FCustomMeshTriangle = nil,
+
+    ---@type FAudioCaptureDeviceInfo
+    FAudioCaptureDeviceInfo = nil,
 
     ---@type FAdaptorPolygon2Group
     FAdaptorPolygon2Group = nil,
@@ -17905,9 +17908,6 @@ UE = {
 
     ---@type FRenderingPolygon
     FRenderingPolygon = nil,
-
-    ---@type FAudioCaptureDeviceInfo
-    FAudioCaptureDeviceInfo = nil,
 
     ---@type FModularSynthPresetBankEntry
     FModularSynthPresetBankEntry = nil,
@@ -18014,11 +18014,11 @@ UE = {
     ---@type FSynthSlateStyle
     FSynthSlateStyle = nil,
 
-    ---@type FContentBrowserCompiledClassDataFilter
-    FContentBrowserCompiledClassDataFilter = nil,
-
     ---@type FContentBrowserCompiledAssetDataFilter
     FContentBrowserCompiledAssetDataFilter = nil,
+
+    ---@type FContentBrowserCompiledClassDataFilter
+    FContentBrowserCompiledClassDataFilter = nil,
 
     ---@type FOculusMR_PlaneMeshTriangle
     FOculusMR_PlaneMeshTriangle = nil,
@@ -21020,6 +21020,45 @@ UE = {
     ---@type EPawnActionMoveMode
     EPawnActionMoveMode = nil,
 
+    ---@type EPropertyValueCategory
+    EPropertyValueCategory = nil,
+
+    ---@type EDatasmithAreaLightActorType
+    EDatasmithAreaLightActorType = nil,
+
+    ---@type EDatasmithAreaLightActorShape
+    EDatasmithAreaLightActorShape = nil,
+
+    ---@type EDatasmithCADRetessellationRule
+    EDatasmithCADRetessellationRule = nil,
+
+    ---@type EDatasmithCADStitchingTechnique
+    EDatasmithCADStitchingTechnique = nil,
+
+    ---@type EDatasmithImportScene
+    EDatasmithImportScene = nil,
+
+    ---@type EDatasmithImportLightmapMax
+    EDatasmithImportLightmapMax = nil,
+
+    ---@type EDatasmithImportLightmapMin
+    EDatasmithImportLightmapMin = nil,
+
+    ---@type EDatasmithImportMaterialQuality
+    EDatasmithImportMaterialQuality = nil,
+
+    ---@type EDatasmithImportActorPolicy
+    EDatasmithImportActorPolicy = nil,
+
+    ---@type EDatasmithImportAssetConflictPolicy
+    EDatasmithImportAssetConflictPolicy = nil,
+
+    ---@type EDatasmithImportSearchPackagePolicy
+    EDatasmithImportSearchPackagePolicy = nil,
+
+    ---@type FNiagaraCompileEventSeverity
+    FNiagaraCompileEventSeverity = nil,
+
     ---@type EChaosClothTetherMode
     EChaosClothTetherMode = nil,
 
@@ -21062,9 +21101,6 @@ UE = {
     ---@type EMagicLeapHeadTrackingError
     EMagicLeapHeadTrackingError = nil,
 
-    ---@type FNiagaraCompileEventSeverity
-    FNiagaraCompileEventSeverity = nil,
-
     ---@type EInAppPurchaseState
     EInAppPurchaseState = nil,
 
@@ -21091,42 +21127,6 @@ UE = {
 
     ---@type ESpectatorReservationResult
     ESpectatorReservationResult = nil,
-
-    ---@type EPropertyValueCategory
-    EPropertyValueCategory = nil,
-
-    ---@type EDatasmithAreaLightActorType
-    EDatasmithAreaLightActorType = nil,
-
-    ---@type EDatasmithAreaLightActorShape
-    EDatasmithAreaLightActorShape = nil,
-
-    ---@type EDatasmithCADRetessellationRule
-    EDatasmithCADRetessellationRule = nil,
-
-    ---@type EDatasmithCADStitchingTechnique
-    EDatasmithCADStitchingTechnique = nil,
-
-    ---@type EDatasmithImportScene
-    EDatasmithImportScene = nil,
-
-    ---@type EDatasmithImportLightmapMax
-    EDatasmithImportLightmapMax = nil,
-
-    ---@type EDatasmithImportLightmapMin
-    EDatasmithImportLightmapMin = nil,
-
-    ---@type EDatasmithImportMaterialQuality
-    EDatasmithImportMaterialQuality = nil,
-
-    ---@type EDatasmithImportActorPolicy
-    EDatasmithImportActorPolicy = nil,
-
-    ---@type EDatasmithImportAssetConflictPolicy
-    EDatasmithImportAssetConflictPolicy = nil,
-
-    ---@type EDatasmithImportSearchPackagePolicy
-    EDatasmithImportSearchPackagePolicy = nil,
 
     ---@type EEyeTrackerStatus
     EEyeTrackerStatus = nil,
@@ -21295,108 +21295,6 @@ UE = {
 
     ---@type EInitialWaveOscillatorOffsetType
     EInitialWaveOscillatorOffsetType = nil,
-
-    ---@type EMagicLeapPlaneQueryFlags
-    EMagicLeapPlaneQueryFlags = nil,
-
-    ---@type EMagicLeapPlaneQueryType
-    EMagicLeapPlaneQueryType = nil,
-
-    ---@type EMagicLeapLightEstimationCamera
-    EMagicLeapLightEstimationCamera = nil,
-
-    ---@type EMagicLeapARPinType
-    EMagicLeapARPinType = nil,
-
-    ---@type EMagicLeapAutoPinType
-    EMagicLeapAutoPinType = nil,
-
-    ---@type EMagicLeapPassableWorldError
-    EMagicLeapPassableWorldError = nil,
-
-    ---@type EMagicLeapImageTargetOrientation
-    EMagicLeapImageTargetOrientation = nil,
-
-    ---@type EMagicLeapImageTargetStatus
-    EMagicLeapImageTargetStatus = nil,
-
-    ---@type ELuminARLineTraceChannel
-    ELuminARLineTraceChannel = nil,
-
-    ---@type ELuminARTrackingState
-    ELuminARTrackingState = nil,
-
-    ---@type EMagicLeapTouchpadGestureDirection
-    EMagicLeapTouchpadGestureDirection = nil,
-
-    ---@type EMagicLeapTouchpadGestureType
-    EMagicLeapTouchpadGestureType = nil,
-
-    ---@type EMagicLeapControllerTrackingMode
-    EMagicLeapControllerTrackingMode = nil,
-
-    ---@type EMagicLeapControllerHapticIntensity
-    EMagicLeapControllerHapticIntensity = nil,
-
-    ---@type EMagicLeapControllerHapticPattern
-    EMagicLeapControllerHapticPattern = nil,
-
-    ---@type EMagicLeapControllerLEDSpeed
-    EMagicLeapControllerLEDSpeed = nil,
-
-    ---@type EMagicLeapControllerLEDColor
-    EMagicLeapControllerLEDColor = nil,
-
-    ---@type EMagicLeapControllerLEDEffect
-    EMagicLeapControllerLEDEffect = nil,
-
-    ---@type EMagicLeapControllerLEDPattern
-    EMagicLeapControllerLEDPattern = nil,
-
-    ---@type EMagicLeapControllerType
-    EMagicLeapControllerType = nil,
-
-    ---@type EMagicLeapEyeTrackingCalibrationStatus
-    EMagicLeapEyeTrackingCalibrationStatus = nil,
-
-    ---@type EMagicLeapEyeTrackingStatus
-    EMagicLeapEyeTrackingStatus = nil,
-
-    ---@type EMagicLeapGestureTransformSpace
-    EMagicLeapGestureTransformSpace = nil,
-
-    ---@type EMagicLeapHandTrackingGestureFilterLevel
-    EMagicLeapHandTrackingGestureFilterLevel = nil,
-
-    ---@type EMagicLeapHandTrackingKeypointFilterLevel
-    EMagicLeapHandTrackingKeypointFilterLevel = nil,
-
-    ---@type EMagicLeapHandTrackingGesture
-    EMagicLeapHandTrackingGesture = nil,
-
-    ---@type EMagicLeapHandTrackingKeypoint
-    EMagicLeapHandTrackingKeypoint = nil,
-
-    ---@type EMagicLeapIdentityKey
-    EMagicLeapIdentityKey = nil,
-
-    ---@type EMagicLeapIdentityError
-    EMagicLeapIdentityError = nil,
-
-    ---@type EPyTestEnum
-    EPyTestEnum = nil,
-
-    ---@type EPythonFileExecutionScope
-    EPythonFileExecutionScope = nil,
-
-    ---@type EPythonCommandExecutionMode
-    EPythonCommandExecutionMode = nil,
-
-    ---@type EPythonCommandFlags
-    EPythonCommandFlags = nil,
-
-    ---@type EPythonLogOutputType
-    EPythonLogOutputType = nil,
 
     ---@type ENiagaraSystemSpawnSectionEndBehavior
     ENiagaraSystemSpawnSectionEndBehavior = nil,
@@ -21671,11 +21569,113 @@ UE = {
     ---@type ENiagaraPythonScriptInputSource
     ENiagaraPythonScriptInputSource = nil,
 
-    ---@type EUdpMessageFormat
-    EUdpMessageFormat = nil,
+    ---@type EPyTestEnum
+    EPyTestEnum = nil,
+
+    ---@type EPythonFileExecutionScope
+    EPythonFileExecutionScope = nil,
+
+    ---@type EPythonCommandExecutionMode
+    EPythonCommandExecutionMode = nil,
+
+    ---@type EPythonCommandFlags
+    EPythonCommandFlags = nil,
+
+    ---@type EPythonLogOutputType
+    EPythonLogOutputType = nil,
+
+    ---@type EMagicLeapPlaneQueryFlags
+    EMagicLeapPlaneQueryFlags = nil,
+
+    ---@type EMagicLeapPlaneQueryType
+    EMagicLeapPlaneQueryType = nil,
+
+    ---@type EMagicLeapLightEstimationCamera
+    EMagicLeapLightEstimationCamera = nil,
+
+    ---@type EMagicLeapARPinType
+    EMagicLeapARPinType = nil,
+
+    ---@type EMagicLeapAutoPinType
+    EMagicLeapAutoPinType = nil,
+
+    ---@type EMagicLeapPassableWorldError
+    EMagicLeapPassableWorldError = nil,
+
+    ---@type EMagicLeapImageTargetOrientation
+    EMagicLeapImageTargetOrientation = nil,
+
+    ---@type EMagicLeapImageTargetStatus
+    EMagicLeapImageTargetStatus = nil,
+
+    ---@type ELuminARLineTraceChannel
+    ELuminARLineTraceChannel = nil,
+
+    ---@type ELuminARTrackingState
+    ELuminARTrackingState = nil,
+
+    ---@type EMagicLeapTouchpadGestureDirection
+    EMagicLeapTouchpadGestureDirection = nil,
+
+    ---@type EMagicLeapTouchpadGestureType
+    EMagicLeapTouchpadGestureType = nil,
+
+    ---@type EMagicLeapControllerTrackingMode
+    EMagicLeapControllerTrackingMode = nil,
+
+    ---@type EMagicLeapControllerHapticIntensity
+    EMagicLeapControllerHapticIntensity = nil,
+
+    ---@type EMagicLeapControllerHapticPattern
+    EMagicLeapControllerHapticPattern = nil,
+
+    ---@type EMagicLeapControllerLEDSpeed
+    EMagicLeapControllerLEDSpeed = nil,
+
+    ---@type EMagicLeapControllerLEDColor
+    EMagicLeapControllerLEDColor = nil,
+
+    ---@type EMagicLeapControllerLEDEffect
+    EMagicLeapControllerLEDEffect = nil,
+
+    ---@type EMagicLeapControllerLEDPattern
+    EMagicLeapControllerLEDPattern = nil,
+
+    ---@type EMagicLeapControllerType
+    EMagicLeapControllerType = nil,
+
+    ---@type EMagicLeapEyeTrackingCalibrationStatus
+    EMagicLeapEyeTrackingCalibrationStatus = nil,
+
+    ---@type EMagicLeapEyeTrackingStatus
+    EMagicLeapEyeTrackingStatus = nil,
+
+    ---@type EMagicLeapGestureTransformSpace
+    EMagicLeapGestureTransformSpace = nil,
+
+    ---@type EMagicLeapHandTrackingGestureFilterLevel
+    EMagicLeapHandTrackingGestureFilterLevel = nil,
+
+    ---@type EMagicLeapHandTrackingKeypointFilterLevel
+    EMagicLeapHandTrackingKeypointFilterLevel = nil,
+
+    ---@type EMagicLeapHandTrackingGesture
+    EMagicLeapHandTrackingGesture = nil,
+
+    ---@type EMagicLeapHandTrackingKeypoint
+    EMagicLeapHandTrackingKeypoint = nil,
+
+    ---@type EMagicLeapIdentityKey
+    EMagicLeapIdentityKey = nil,
+
+    ---@type EMagicLeapIdentityError
+    EMagicLeapIdentityError = nil,
 
     ---@type EActorSequenceObjectReferenceType
     EActorSequenceObjectReferenceType = nil,
+
+    ---@type EUdpMessageFormat
+    EUdpMessageFormat = nil,
 
     ---@type EConstantQFFTSizeEnum
     EConstantQFFTSizeEnum = nil,
@@ -21755,6 +21755,9 @@ UE = {
     ---@type EOodleEnableMode
     EOodleEnableMode = nil,
 
+    ---@type EVariantManagerTestEnum
+    EVariantManagerTestEnum = nil,
+
     ---@type ECurveEditorFFTFilterType
     ECurveEditorFFTFilterType = nil,
 
@@ -21766,12 +21769,6 @@ UE = {
 
     ---@type EToolTransformInterpType
     EToolTransformInterpType = nil,
-
-    ---@type EImportLODType
-    EImportLODType = nil,
-
-    ---@type EImportGeometryType
-    EImportGeometryType = nil,
 
     ---@type EAbcGeometryCacheMotionVectorsImport
     EAbcGeometryCacheMotionVectorsImport = nil,
@@ -21851,14 +21848,20 @@ UE = {
     ---@type EDataSortTypeEnum
     EDataSortTypeEnum = nil,
 
-    ---@type EVariantManagerTestEnum
-    EVariantManagerTestEnum = nil,
+    ---@type EImportLODType
+    EImportLODType = nil,
+
+    ---@type EImportGeometryType
+    EImportGeometryType = nil,
 
     ---@type EAppleTextureType
     EAppleTextureType = nil,
 
     ---@type ETextureRotationDirection
     ETextureRotationDirection = nil,
+
+    ---@type ECollectionScriptingShareType
+    ECollectionScriptingShareType = nil,
 
     ---@type ETriangleTessellationMode
     ETriangleTessellationMode = nil,
@@ -21889,9 +21892,6 @@ UE = {
 
     ---@type EGooglePADErrorCode
     EGooglePADErrorCode = nil,
-
-    ---@type ECollectionScriptingShareType
-    ECollectionScriptingShareType = nil,
 
     ---@type ESynth1PatchDestination
     ESynth1PatchDestination = nil,
